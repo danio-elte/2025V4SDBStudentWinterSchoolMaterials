@@ -4,7 +4,7 @@ title: "2025 V4SDB Winter School Programme"
 
 ## Preliminary programme {.unnumbered}
 
-### Monday, January 28
+### Tuesday, January 28
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
@@ -14,7 +14,7 @@ title: "2025 V4SDB Winter School Programme"
 | 16:00-17:30   | Flash Talks by Students                     |
 | 20:00-23:00   | Social Program                             |
 
-### Tuesday, January 29
+### Wednesday, January 29
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
@@ -27,7 +27,7 @@ title: "2025 V4SDB Winter School Programme"
 | 17:00-18:30   | Afternoon Session II (Joanna Pylvänäinen)  |
 | 20:00-23:00   | Dinner for Lecturers                       |
 
-### Wednesday, January 30
+### Thursday, January 30
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
@@ -39,7 +39,7 @@ title: "2025 V4SDB Winter School Programme"
 | 16:30-17:00   | Coffee Break                               |
 | 17:00-18:30   | Afternoon Session II (Kenzo Ivanovitch)    |
 
-### Thursday, January 31
+### Friday, January 31
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
@@ -51,7 +51,7 @@ title: "2025 V4SDB Winter School Programme"
 ::: {.callout-note}
 ## Programme notes
 - All sessions include breaks to maintain engagement and provide networking opportunities
-- A social program is scheduled for the first evening at Grund
+- A social program is scheduled for the first evening at [The Grund](https://maps.app.goo.gl/7v89dYzURw8ySDSm9)
 - One session will be conducted online (Giulia Bertolin's session on Thursday morning)
 :::
 
