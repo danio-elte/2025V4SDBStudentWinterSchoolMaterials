@@ -2,8 +2,71 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "FAQ",
+    "title": "2025 V4SDB Student Winter School",
     "section": "",
-    "text": "FAQ\nThis is a collection of materials for the 2025 V4SDB Student Winter School."
+    "text": "2025 V4SDB Student Winter School Information\nThe course will focus on the computational analysis of various large imaging datasets. During the course we plan to have 4-5 practical sessions, when the participants will have the opportunity to gain hands-on experience in the in silico processing of large imaging datasets (e.g. volume electron microscopy, calcium imaging, lightsheet microscopy).\nAs part of the course we will also have a public lecture about the best practices in Open Science.\nOur target audience are graduate students (both at MSc and PhD level). Thanks to generous funding by the “Mecenatúra” Program of the Hungarian National Research, Development and Innovation Office NRDI/NKFIH - MEC_SZ-149306 this event will be generously subsidised with no registration fee.\n##Confirmed lecturers:\n\nGáspár Jékely - Centre for Organismal Biology, Heidelberg, Germany\nJoanna Pylvänäinen - Åbo Akademi University, Turku, Finland\nIsaac Bianco - University College London, London, UK\nKenzo Ivanovitch - University College London, London, UK\nGiulia Bertolin - Insitute of Genetics and Development of Rennes, Rennes, France\nAdriana Nagy-Dăbâcan - Transylvania Institute of Neuroscience, Cluj-Napoca, Romania\n\nOrganizer: Máté Varga - ELTE Eötvös Loránd University, Budapest, Hungary\n##Funding:"
+  },
+  {
+    "objectID": "joanna.html#workshop-overview",
+    "href": "joanna.html#workshop-overview",
+    "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
+    "section": "Workshop Overview",
+    "text": "Workshop Overview\nIn life sciences, tracking objects within movies is crucial for quantifying the behaviour of particles, organelles, bacteria, cells, and entire organisms. However, tracking multiple objects across numerous movies and analysing the objects’ movements can be challenging. This workshop aims to demonstrate the effective utilization of TrackMate for object tracking across multiple movies through hands-on exercises. Additionally, participants will learn how to compile, analyse, and explore the acquired tracking data using the CellTracksColab platform. Both tools offer user-friendly interfaces tailored to life scientists without coding experience.\nBy the end of this workshop, participants will be familiar with TrackMate’s tracking capabilities, will have analyzed tracking data using CellTracksColab, and will know how to export and visualize their results for further research.\nWorkshop slides available here (remember to update)"
+  },
+  {
+    "objectID": "joanna.html#software",
+    "href": "joanna.html#software",
+    "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
+    "section": "Software:",
+    "text": "Software:\nTrackMate:  - An open-source FIJI/ImageJ plugin for tracking cells/particles in 2D microscopy images.\nCellTracksColab:  - A cloud-based platform for analyzing tracking data."
+  },
+  {
+    "objectID": "joanna.html#hands-on-with-trackmate-and-celltrackscolab",
+    "href": "joanna.html#hands-on-with-trackmate-and-celltrackscolab",
+    "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
+    "section": "Hands-on with TrackMate and CellTracksColab",
+    "text": "Hands-on with TrackMate and CellTracksColab\n\nIf you want to test the tools during the workshop please do these before the workshop:\n1. Download these datasets:\nLink to Zenodo\n\n\n0_Tracking_settings.zip\n1_TrackMate_batcher_input.zip\n2_CellTracksColab_input.zip\n\n2. Download and prepare Fiji\n\nDownload Fiji\nOpen Fiji and activate TrackMate Helper update site. Restart Fiji.\n\n\n\n\n\n\n\n\n\n\n3. You need to have access to google drive (personal or create one for the purpose of this course) - Unzip the 2_CellTracksColab_input.zip and upload it to your google drive - Create a new folder on you google drive called Results"
+  },
+  {
+    "objectID": "joanna.html#workshop-step-by-step",
+    "href": "joanna.html#workshop-step-by-step",
+    "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
+    "section": "Workshop step-by-step:",
+    "text": "Workshop step-by-step:\n1. Cell Tracking with TrackMate - Open Fiji and the image image_for_tracking_settings -image from the 0_Tracking_settings folder. - Define tracking parameters in the TrackMate interface. - Save traking settings as XML for batch processing. - Open the TrackMate batcher to Batch process all images from the 1_TrackMate_batcher_input -folder. - Export tracking data (spot tables, track tables, movies).\n2. Analyze TrackMate output in CellTracksColab.\n\nUpload your tracking results to your Google Drive. Make sure that the folders are correctly organized.\n\n\n\n\n\n\n\n\n\nYou can also use the pre-made CellTracksColab input from the 2_CellTracksColab_input -folder\nCreate a new folder for results\nOpen The CellTracksColab TrackMate notebook and make a copy to your drive.\nRun all cells to visualize tracks and to generate plots.\nBonus: Utilize advanced dimensionality reduction techniques to understand your data using Dimensionality Reduction notebook\n\n\n\n\n\n\n\nCheck out the video from I2K:"
+  },
+  {
+    "objectID": "joanna.html#references",
+    "href": "joanna.html#references",
+    "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
+    "section": "References",
+    "text": "References\nTrackMate Ershov, D., Phan, M. S., Pylvänäinen, J. W., Rigaud, S. U., Le Blanc, L., Charles-Orszag, A., Conway, J. R. W., Laine, R. F., Roy, N. H., Bonazzi, D., Duménil, G., Jacquemet, G., & Tinevez, J. Y. (2022). TrackMate 7: integrating state-of-the-art segmentation algorithms into tracking pipelines. Nature Methods, 19(7), 829–832. https://doi.org/10.1038/s41592-022-01507-1\nCellTracksColab Gómez-de-Mariscal, E., Grobe, H., Pylvänäinen, J. W., Xénard, L., Henriques, R., Tinevez, J. Y., & Jacquemet, G. (2024). CellTracksColab is a platform that enables compilation, analysis, and exploration of cell tracking data. PLOS Biology, 22(8), e3002740. https://doi.org/10.1371/journal.pbio.3002740\nT-Cell Dataset Guillaume Jacquemet. (2023). T cell dataset for CellTracksColab - 2 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8420011"
+  },
+  {
+    "objectID": "joanna.html",
+    "href": "joanna.html",
+    "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
+    "section": "",
+    "text": "Training materials for V4SDB Student Winter School.\nInstructor:\nJoanna Pylvänäinen, Åbo Akademi University\njoanna.pylvanainen@abo.fi"
+  },
+  {
+    "objectID": "index.html#confirmed-lecturers",
+    "href": "index.html#confirmed-lecturers",
+    "title": "2025 V4SDB Student Winter School",
+    "section": "Confirmed lecturers",
+    "text": "Confirmed lecturers\n\nGáspár Jékely - Centre for Organismal Biology, Heidelberg, Germany\nJoanna Pylvänäinen - Åbo Akademi University, Turku, Finland\nIsaac Bianco - University College London, London, UK\nKenzo Ivanovitch - University College London, London, UK\nGiulia Bertolin - Insitute of Genetics and Development of Rennes, Rennes, France\nAdriana Nagy-Dăbâcan - Transylvania Institute of Neuroscience, Cluj-Napoca, Romania\n\nOrganizer:\n\nMáté Varga - ELTE Eötvös Loránd University, Budapest, Hungary"
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "2025 V4SDB Student Winter School",
+    "section": "Funding",
+    "text": "Funding"
+  },
+  {
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "2025 V4SDB Winter School Programme",
+    "section": "",
+    "text": "Programme\nPreliminary programme:\n\n\nLocation"
   }
 ]

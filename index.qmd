@@ -1,7 +1,34 @@
 ---
-title: "FAQ"
+title: ""
 ---
+![](images/2025V4SDBWinterSchool_header.png)
 
-# FAQ {.unnumbered}
+# 2025 V4SDB Student Winter School Information {.unnumbered}
 
-This is a collection of materials for the 2025 V4SDB Student Winter School.
+**The course will focus on the computational analysis of various large imaging datasets.** During the course we plan to have 4-5 practical sessions, when the participants will have the opportunity to gain hands-on experience in the in silico processing of large imaging datasets (e.g. volume electron microscopy, calcium imaging, lightsheet microscopy). 
+
+As part of the course we will also have a **public lecture about the best practices in Open Science**.
+
+Our target audience are graduate students (both at MSc and PhD level). Thanks to generous funding by the “Mecenatúra” Program of the Hungarian National Research, Development and Innovation Office [NRDI/NKFIH - MEC_SZ-149306](https://nkfih.gov.hu/palyazoknak/nkfi-alap/tamogatott-projektek-mec24) this event will be generously subsidised with no registration fee.
+
+
+## Confirmed lecturers
+
+- Gáspár Jékely - Centre for Organismal Biology, Heidelberg, Germany
+- Joanna Pylvänäinen - Åbo Akademi University, Turku, Finland
+- Isaac Bianco - University College London, London, UK
+- Kenzo Ivanovitch - University College London, London, UK
+- Giulia Bertolin - Insitute of Genetics and Development of Rennes, Rennes, France
+- Adriana Nagy-Dăbâcan - Transylvania Institute of Neuroscience, Cluj-Napoca, Romania
+
+**Organizer:** 
+
+- Máté Varga - ELTE Eötvös Loránd University, Budapest, Hungary
+
+## Funding
+
+::: {layout="[[-10,80,-10],[-25,50,-25]]"}
+![](images/NKFIA_fekvo_2019_EN.png)
+
+![](images/elte_logo.png)
+:::
