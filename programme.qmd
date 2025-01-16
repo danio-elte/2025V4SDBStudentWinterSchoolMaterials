@@ -2,13 +2,61 @@
 title: "2025 V4SDB Winter School Programme"
 ---
 
+## Preliminary programme {.unnumbered}
 
-# Programme {.unnumbered}
+### Monday, January 28
 
-Preliminary programme:
+| Time          | Activity                                    |
+|:--------------|:--------------------------------------------|
+| 13:00-14:00   | Registration                                |
+| 14:00-15:00   | Lecture on Open Science (Gáspár Jékely)     |
+| 15:00-16:00   | Coffee Break, Registration                  |
+| 16:00-17:30   | Flash Talks by Students                     |
+| 20:00-23:00   | Social Program                             |
+
+### Tuesday, January 29
+
+| Time          | Activity                                    |
+|:--------------|:--------------------------------------------|
+| 09:00-11:00   | Morning Session I (Gáspár Jékely)          |
+| 11:00-11:30   | Coffee Break                               |
+| 11:30-13:00   | Morning Session II (Gáspár Jékely)         |
+| 13:00-14:30   | Lunch (buffet)                             |
+| 14:30-16:30   | Afternoon Session I (Joanna Pylvänäinen)   |
+| 16:30-17:00   | Coffee Break                               |
+| 17:00-18:30   | Afternoon Session II (Joanna Pylvänäinen)  |
+| 20:00-23:00   | Dinner for Lecturers                       |
+
+### Wednesday, January 30
+
+| Time          | Activity                                    |
+|:--------------|:--------------------------------------------|
+| 09:00-11:00   | Morning Session I (Isaac Bianco)           |
+| 11:00-11:30   | Coffee Break                               |
+| 11:30-13:00   | Morning Session II (Isaac Bianco)          |
+| 13:00-14:30   | Lunch (buffet)                             |
+| 14:30-16:30   | Afternoon Session I (Kenzo Ivanovitch)     |
+| 16:30-17:00   | Coffee Break                               |
+| 17:00-18:30   | Afternoon Session II (Kenzo Ivanovitch)    |
+
+### Thursday, January 31
+
+| Time          | Activity                                    |
+|:--------------|:--------------------------------------------|
+| 09:00-11:00   | Morning Session I (Giulia Bertolin - online) |
+| 11:00-11:30   | Coffee Break                               |
+| 11:30-13:00   | Morning Session II (Adriana Nagy-Dăbâcan)       |
+| 13:00-13:30   | Closing remarks, Lunch (take away)         |
+
+::: {.callout-note}
+## Programme notes
+- All sessions include breaks to maintain engagement and provide networking opportunities
+- A social program is scheduled for the first evening at Grund
+- One session will be conducted online (Giulia Bertolin's session on Thursday morning)
+:::
 
 
-# Location {.unnumbered}
+## Location {.unnumbered}
 
 ```{=html}
 <center>
