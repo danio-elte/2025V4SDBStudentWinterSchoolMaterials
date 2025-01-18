@@ -19,7 +19,7 @@ website:
       - section: "Tutorials"
         contents: 
            - text: "Cell Tracking"
-             href: joanna.qmd
+             href: cell_tracking.qmd
    
 format:
   html:

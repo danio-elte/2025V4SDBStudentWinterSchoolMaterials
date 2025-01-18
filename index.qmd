@@ -5,7 +5,7 @@ title: ""
 
 # 2025 V4SDB Student Winter School Information {.unnumbered}
 
-**The course will focus on the computational analysis of various large imaging datasets.** During the course we plan to have 4-5 practical sessions, when the participants will have the opportunity to gain hands-on experience in the in silico processing of large imaging datasets (e.g. volume electron microscopy, calcium imaging, lightsheet microscopy). 
+**The course will focus on the computational analysis of various large imaging datasets.** During the course we plan to have 6 practical sessions, when the participants will have the opportunity to gain hands-on experience in the *in silico* processing of large imaging datasets (e.g. volume electron microscopy, calcium imaging, lightsheet microscopy, cell tracking). 
 
 As part of the course we will also have a **public lecture about the best practices in Open Science**.
 
