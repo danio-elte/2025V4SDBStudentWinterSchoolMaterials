@@ -9,7 +9,8 @@ website:
     logo: "images/2025V4SDBWinterSchool_logo.png"
     title: "2025 V4SDB Student Winter School Materials" 
     pinned: true
-    search: true  
+    search: true
+    page-footer: "Copyright 2025, Máté Varga"  
     contents:
       - text: "Introduction"
         href: index.qmd
@@ -22,6 +23,6 @@ website:
    
 format:
   html:
-    theme: minty
+    theme: cosmo
     css: styles.css
     toc: true

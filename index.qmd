@@ -9,21 +9,21 @@ title: ""
 
 As part of the course we will also have a **public lecture about the best practices in Open Science**.
 
-Our target audience are graduate students (both at MSc and PhD level). Thanks to generous funding by the “Mecenatúra” Program of the Hungarian National Research, Development and Innovation Office [NRDI/NKFIH - MEC_SZ-149306](https://nkfih.gov.hu/palyazoknak/nkfi-alap/tamogatott-projektek-mec24) this event will be generously subsidised with no registration fee.
+Our target audience are graduate students (both at MSc and PhD level). Thanks to generous funding by the “Mecenatúra” Program of the Hungarian National Research, Development and Innovation Office ([NRDI/NKFIH - MEC_SZ-149306](https://nkfih.gov.hu/palyazoknak/nkfi-alap/tamogatott-projektek-mec24)) this event will be generously subsidised with no registration fee.
 
 
 ## Confirmed lecturers
 
-- Gáspár Jékely - Centre for Organismal Biology, Heidelberg, Germany
-- Joanna Pylvänäinen - Åbo Akademi University, Turku, Finland
-- Isaac Bianco - University College London, London, UK
-- Kenzo Ivanovitch - University College London, London, UK
-- Giulia Bertolin - Insitute of Genetics and Development of Rennes, Rennes, France
-- Adriana Nagy-Dăbâcan - Transylvania Institute of Neuroscience, Cluj-Napoca, Romania
+- [Gáspár Jékely](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely) - Centre for Organismal Biology, Heidelberg, Germany
+- [Joanna Pylvänäinen](https://cellmig.org) - Åbo Akademi University, Turku, Finland
+- [Isaac Bianco](http://zebrafishucl.org/bianco-lab#research-2) - University College London, London, UK
+- [Kenzo Ivanovitch](https://www.ivanovitch-lab.com) - University College London, London, UK
+- [Giulia Bertolin](https://igdr.univ-rennes.fr/en/mitochondrial-biology-and-integration-cell-cycle-team) - Insitute of Genetics and Development of Rennes, Rennes, France
+- [Adriana Nagy-Dăbâcan](https://muresanlab.tins.ro) - Transylvania Institute of Neuroscience, Cluj-Napoca, Romania
 
 **Organizer:** 
 
-- Máté Varga - ELTE Eötvös Loránd University, Budapest, Hungary
+- [Máté Varga](http://danio.elte.hu/index.html) - ELTE Eötvös Loránd University, Budapest, Hungary
 
 ## Funding
 
