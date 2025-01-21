@@ -22,6 +22,8 @@ website:
              href: cell_tracking.qmd
            - text: "Bonsai"
              href: bonsai.qmd
+           - text: "Connectome Analysis"
+             href: connectome.qmd
 
    
 format:

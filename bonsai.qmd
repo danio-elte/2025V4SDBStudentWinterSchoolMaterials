@@ -9,7 +9,7 @@ Materials for the Bonsai introduction and tutorial
 **Instructor:**
 
 Adriana Nagy-Dăbâcan
-Transylvanian Institute of Neuroscience
+Transylvanian Institute of Neuroscience<br> 
 dabacan@tins.ro
 
 ## Workshop Overview

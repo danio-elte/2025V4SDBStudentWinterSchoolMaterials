@@ -18,9 +18,9 @@ title: "2025 V4SDB Winter School Programme"
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
-| 09:00-11:00   | Morning Session I (Gáspár Jékely)          |
+| 09:00-11:00   | [Morning Session I (Gáspár Jékely)](connectome.qmd)          |
 | 11:00-11:30   | Coffee Break                               |
-| 11:30-13:00   | Morning Session II (Gáspár Jékely)         |
+| 11:30-13:00   | [Morning Session II (Gáspár Jékely)](connectome.qmd)         |
 | 13:00-14:30   | Lunch (buffet)                             |
 | 14:30-16:30   | [Afternoon Session I (Joanna Pylvänäinen)](cell_tracking.qmd)   |
 | 16:30-17:00   | Coffee Break                               |

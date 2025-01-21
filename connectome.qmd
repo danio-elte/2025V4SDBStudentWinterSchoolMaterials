@@ -1,0 +1,65 @@
+---
+title: "Analysis of the *Platynereis dumerilii* connectome using the CATMAID web
+interface and the API"
+---
+
+Training materials for V4SDB Student Winter School.
+
+29.01.2025 - 09:00 - 13:00
+
+**Instructor:**
+
+Gáspár Jékely, Centre for Organismal Studies, Heidelberg University<br> 
+gaspar.jekely@cos.uni-heidelberg.de
+
+## Workshop Overview
+
+Neuronal connectomics relies on ever increasing datasets of volume electron microscopy (vEM) data that are analysed either manually (skeletonisation) or by AI-assisted segmentation tools, followed by extensive proofreading. The workshop will give an introduction into the web-based collaborative tracing and annotaton platform CATMAID used for connectome analysis. The first part will explore the CATMAID web interface and introduce into the core functions. We will analyse a large dataset from our laboratory containing the whole-body connectome of the larval stage of the marine annelid Platynereis dumerilii, our model organism. In the second part, we will try to repeat some of the analysis by using RStudio and the R package Natverse. This package accesses the same CATMAID webside via the API (application programming interface) and can fetch data from our connectome server. The data can then be analysed in standard R workflows of network analysis, plotting, statistics, figure assembly and paper writing. I will also give a brief introduction into this open science workflow, as it is used in our lab.
+
+## Software
+
+### First Part
+
+[**CATMAID** - The Collaborative Annotation Toolkit for Massive Amounts of Image Data](https://catmaid.readthedocs.io/en/stable/index.html)
+
+(Web-based software, no installation needed)
+
+We will use the [public EM resources](https://catmaid.jekelylab.ex.ac.uk/) of the Jékely lab and look into the whole-body connectome of the *Platynereis dumerilii* larva.
+
+### Second part
+
+Accessing CATMAID via the API from Rstudio.
+
+Install [RStudio](https://posit.co/downloads/): 
+
+-  An integrated development environment (IDE) to work with R and Python
+https://posit.co/downloads/
+
+Install necessary packages from RStudio, including Natverse/Catmaid:
+
+- R tools for quantitative neuroanatomy, a package that provides access
+to the CATMAID API for R users. 
+[https://github.com/natverse/rcatmaid](https://github.com/natverse/rcatmaid)
+
+Install the [Tidyverse](https://tidyverse.tidyverse.org/):
+
+- a set of packages that work in harmony because they share common data
+representations and API design
+https://tidyverse.tidyverse.org/
+
+We will use the following GitHub repo:
+[https://github.com/JekelyLab/ELTE_Catmaid_course_25](https://github.com/JekelyLab/ELTE_Catmaid_course_25)
+(still work in progress, so only clone during the course)
+
+Repo of the *Platynereis* connectome paper, including the code for all
+analyses and figures: [https://github.com/JekelyLab/Platynereis_3D_connectome_2024](https://github.com/JekelyLab/Platynereis_3D_connectome_2024)
+
+
+
+## References
+
+Schneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., & Cardona, A. (2016). **Quantitative neuroanatomy for connectomics in *Drosophila*.** eLife, 5, e12059. [https://doi.org/10.7554/eLife.12059](https://doi.org/10.7554/eLife.12059)
+
+Bates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., & Jefferis, G. S. (2020). **The natverse, a versatile toolbox for combining and analysing neuroanatomical data.** eLife, 9, e53350. [https://doi.org/10.7554/eLife.53350](https://doi.org/10.7554/eLife.53350)
+
+Verasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., & Jékely, G. (2017). **Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the *Platynereis* larva.** eLife, 6, e26000. [https://doi.org/10.7554/eLife.26000](https://doi.org/10.7554/eLife.26000)
