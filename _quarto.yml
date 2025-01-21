@@ -20,6 +20,9 @@ website:
         contents: 
            - text: "Cell Tracking"
              href: cell_tracking.qmd
+           - text: "Bonsai"
+             href: bonsai.qmd
+
    
 format:
   html:
