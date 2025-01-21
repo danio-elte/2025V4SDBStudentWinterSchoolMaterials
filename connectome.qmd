@@ -9,7 +9,7 @@ Training materials for V4SDB Student Winter School.
 
 **Instructor:**
 
-Gáspár Jékely, Centre for Organismal Studies, Heidelberg University<br> 
+Gáspár Jékely (Centre for Organismal Studies, Heidelberg University)<br> 
 gaspar.jekely@cos.uni-heidelberg.de
 
 ## Workshop Overview

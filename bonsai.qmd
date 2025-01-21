@@ -8,8 +8,7 @@ Materials for the Bonsai introduction and tutorial
 
 **Instructor:**
 
-Adriana Nagy-Dăbâcan
-Transylvanian Institute of Neuroscience<br> 
+Adriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience)<br> 
 dabacan@tins.ro
 
 ## Workshop Overview
@@ -35,7 +34,7 @@ By the end of the workshop, participants will be familiar with Bonsai as a tool 
 - Check out the Bonsai Gallery and make sure the example workflows work on your station.
 - Download the [video file](https://github.com/dabacana/V4SDB_Bonsai_Intro/blob/main/mouse_arena.avi) for this workshop. 
 
-## Workshop step by step
+## Workshop step-by-step
 
 1. Open and visualize video file.
 2. Detect animal using simple image processing functions.

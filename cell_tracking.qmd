@@ -6,7 +6,7 @@ Training materials for V4SDB Student Winter School.
 
 **Instructor:**
 
-Joanna Pylvänäinen, Åbo Akademi University  
+Joanna Pylvänäinen (Åbo Akademi University)  
 joanna.pylvanainen@abo.fi  
 
 ## Workshop Overview
