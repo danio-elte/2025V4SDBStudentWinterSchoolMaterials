@@ -1,0 +1,62 @@
+---
+title: "Analysis of Calcium Imaging Data"
+---
+
+Training materials for V4SDB Student Winter School.
+
+**Instructor:**
+
+Isaac Bianco (University College London)  
+i.bianco@ucl.ac.uk  
+
+## Workshop Overview
+
+*In vivo* imaging of calcium dynamics can shed light on a broad range of biological processes from cell migration and tissue morphogenesis to multiple aspects of neuronal activity. In neuroscience, a combination of modern genetically encoded calcium sensors alongside advances in imaging technology are enabling the activity of tens of thousands of neurons to be monitored in behaving animals. In parallel, advances in data processing and analysis are enabling researchers to make sense of vast population activity datasets. 
+
+In this workshop, we will: 
+
+1) introduce the key principles of calcium imaging; 
+2) learn how to process raw calcium imaging data and extract estimates of neuronal activity; 
+3) examine ways to explore large population activity datasets and relate neural dynamics to sensory stimuli, task variables, and animal behaviour.
+
+[Workshop slides will be available here (remember to update)]()
+
+---
+
+## Software
+[**Fiji**](https://imagej.net/software/fiji/downloads): <br>
+-  An open-source image processing package. 
+
+[**Suite2p**](https://github.com/MouseLand/suite2p)
+
+-	follow the instructions under Local Installation 
+-	be sure to install the GUI version: `python -m pip install suite2p[gui]`
+-	on the Mac you may need to use: `python -m pip install 'suite2p[gui]'`
+
+[**Rastermap**](https://github.com/MouseLand/rastermap)
+
+-	follow the instructions under Local Installation 
+-	again, be sure to install the GUI version
+-	it should be fine to install it in the same suite2p environment as used above
+
+
+
+## Datasets
+
+[will be added soon]()
+
+---
+
+## References
+**Suite2p**<br>
+Pachitariu M, Stringer C, Dipoppa M, et al. (2017) **Suite2p: beyond 10,000 neurons with standard two-photon microscopy.** *bioRxiv* [https://doi.org/10.1101/061507](https://doi.org/10.1101/061507)
+
+Suite2p documentation: [https://suite2p.readthedocs.io/en/latest/](https://suite2p.readthedocs.io/en/latest/)
+
+
+**OASIS**<br>
+Friedrich, J., Zhou, P., & Paninski, L. (2017). **Fast online deconvolution of calcium imaging data.** *PLOS Comp Bio*, 13(3), e1005423. [https://doi.org/10.1371/journal.pcbi.1005423](https://doi.org/10.1371/journal.pcbi.1005423)
+
+**Rastermap**<br>
+Stringer, C., Zhong, L., Syeda, A., Du, F., Kesa, M., & Pachitariu, M. (2025). **Rastermap: a discovery method for neural population recordings.** *Nat Neurosci*, 28(1), 201–212. [https://doi.org/10.1038/s41593-024-01783-4](https://doi.org/10.1038/s41593-024-01783-4)
+

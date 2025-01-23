@@ -58,8 +58,8 @@ analyses and figures: [https://github.com/JekelyLab/Platynereis_3D_connectome_20
 
 ## References
 
-Schneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., & Cardona, A. (2016). **Quantitative neuroanatomy for connectomics in *Drosophila*.** eLife, 5, e12059. [https://doi.org/10.7554/eLife.12059](https://doi.org/10.7554/eLife.12059)
+Schneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., & Cardona, A. (2016). **Quantitative neuroanatomy for connectomics in *Drosophila*.** *eLife*, 5, e12059. [https://doi.org/10.7554/eLife.12059](https://doi.org/10.7554/eLife.12059)
 
-Bates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., & Jefferis, G. S. (2020). **The natverse, a versatile toolbox for combining and analysing neuroanatomical data.** eLife, 9, e53350. [https://doi.org/10.7554/eLife.53350](https://doi.org/10.7554/eLife.53350)
+Bates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., & Jefferis, G. S. (2020). **The natverse, a versatile toolbox for combining and analysing neuroanatomical data.** *eLife*, 9, e53350. [https://doi.org/10.7554/eLife.53350](https://doi.org/10.7554/eLife.53350)
 
-Verasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., & Jékely, G. (2017). **Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the *Platynereis* larva.** eLife, 6, e26000. [https://doi.org/10.7554/eLife.26000](https://doi.org/10.7554/eLife.26000)
+Verasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., & Jékely, G. (2017). **Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the *Platynereis* larva.** *eLife*, 6, e26000. [https://doi.org/10.7554/eLife.26000](https://doi.org/10.7554/eLife.26000)

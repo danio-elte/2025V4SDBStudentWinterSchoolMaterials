@@ -30,9 +30,9 @@ title: "2025 V4SDB Winter School Programme"
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
-| 09:00-11:00   | Morning Session I (Isaac Bianco)           |
+| 09:00-11:00   | [Morning Session I (Isaac Bianco)](calcium_imaging.qmd)           |
 | 11:00-11:30   | Coffee Break                               |
-| 11:30-13:00   | Morning Session II (Isaac Bianco)          |
+| 11:30-13:00   | [Morning Session II (Isaac Bianco)](calcium_imaging.qmd)          |
 | 13:00-14:30   | Lunch (buffet)                             |
 | 14:30-16:30   | Afternoon Session I (Kenzo Ivanovitch)     |
 | 16:30-17:00   | Coffee Break                               |

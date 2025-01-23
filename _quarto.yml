@@ -24,6 +24,8 @@ website:
              href: bonsai.qmd
            - text: "Connectome Analysis"
              href: connectome.qmd
+           - text: "Calcium Imaging"
+             href: calcium_imaging.qmd
 
    
 format:

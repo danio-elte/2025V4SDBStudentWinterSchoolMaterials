@@ -53,7 +53,7 @@
     "href": "index.html#confirmed-lecturers",
     "title": "2025 V4SDB Student Winter School",
     "section": "Confirmed lecturers",
-    "text": "Confirmed lecturers\n\nGáspár Jékely - Centre for Organismal Biology, Heidelberg, Germany\nJoanna Pylvänäinen - Åbo Akademi University, Turku, Finland\nIsaac Bianco - University College London, London, UK\nKenzo Ivanovitch - University College London, London, UK\nGiulia Bertolin - Insitute of Genetics and Development of Rennes, Rennes, France\nAdriana Nagy-Dăbâcan - Transylvania Institute of Neuroscience, Cluj-Napoca, Romania\n\nOrganizer:\n\nMáté Varga - ELTE Eötvös Loránd University, Budapest, Hungary"
+    "text": "Confirmed lecturers\n\nGáspár Jékely - Centre for Organismal Biology, Heidelberg, Germany\nJoanna Pylvänäinen - Åbo Akademi University, Turku, Finland\nIsaac Bianco - University College London, London, UK\nKenzo Ivanovitch - University College London, London, UK\nGiulia Bertolin - Insitute of Genetics and Development of Rennes, Rennes, France\nAdriana Nagy-Dăbâcan - Transylvanian Institute of Neuroscience, Cluj-Napoca, Romania\n\nOrganizer:\n\nMáté Varga - ELTE Eötvös Loránd University, Budapest, Hungary"
   },
   {
     "objectID": "index.html#funding",
@@ -88,7 +88,7 @@
     "href": "cell_tracking.html",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School.\nInstructor:\nJoanna Pylvänäinen, Åbo Akademi University\njoanna.pylvanainen@abo.fi"
+    "text": "Training materials for V4SDB Student Winter School.\nInstructor:\nJoanna Pylvänäinen (Åbo Akademi University)\njoanna.pylvanainen@abo.fi"
   },
   {
     "objectID": "cell_tracking.html#workshop-overview",
@@ -130,7 +130,7 @@
     "href": "bonsai.html",
     "title": "Introduction to Bonsai",
     "section": "",
-    "text": "Materials for the Bonsai introduction and tutorial\n31.01.2025 - 11:30 - 13:00\nInstructor:\nAdriana Nagy-Dăbâcan Transylvanian Institute of Neuroscience dabacan@tins.ro"
+    "text": "Materials for the Bonsai introduction and tutorial\n31.01.2025 - 11:30 - 13:00\nInstructor:\nAdriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience) dabacan@tins.ro"
   },
   {
     "objectID": "bonsai.html#workshop-overview",
@@ -157,8 +157,8 @@
     "objectID": "bonsai.html#workshop-step-by-step",
     "href": "bonsai.html#workshop-step-by-step",
     "title": "Introduction to Bonsai",
-    "section": "Workshop step by step",
-    "text": "Workshop step by step\n\nOpen and visualize video file.\nDetect animal using simple image processing functions.\nCompute centroid coordinates in arena.\nImplement simple conditionals using Logical operators.\nIntegrate python scripting for more complex logics.\nTrigger some digital line/speaker when animal leaves predetermined home area."
+    "section": "Workshop step-by-step",
+    "text": "Workshop step-by-step\n\nOpen and visualize video file.\nDetect animal using simple image processing functions.\nCompute centroid coordinates in arena.\nImplement simple conditionals using Logical operators.\nIntegrate python scripting for more complex logics.\nTrigger some digital line/speaker when animal leaves predetermined home area."
   },
   {
     "objectID": "bonsai.html#bonsai-resources",
@@ -172,14 +172,14 @@
     "href": "bonsai.html#references",
     "title": "Introduction to Bonsai",
     "section": "References",
-    "text": "References\nLopes, G., Bonacchi, N., Frazão, J., Neto, J. P., Atallah, B. V., Soares, S., … & Kampff, A. R. (2015). Bonsai: an event-based framework for processing and controlling data streams. Frontiers in neuroinformatics, 9, 7. https://doi.org/10.3389/fninf.2015.00007"
+    "text": "References\nLopes, G., Bonacchi, N., Frazão, J., Neto, J. P., Atallah, B. V., Soares, S., … & Kampff, A. R. (2015). Bonsai: an event-based framework for processing and controlling data streams. *Frontiers in Neuroinformatics**, 9, 7. https://doi.org/10.3389/fninf.2015.00007"
   },
   {
     "objectID": "connectome.html",
     "href": "connectome.html",
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School.\n29.01.2025 - 09:00 - 13:00\nInstructor:\nGáspár Jékely, Centre for Organismal Studies, Heidelberg University gaspar.jekely@cos.uni-heidelberg.de"
+    "text": "Training materials for V4SDB Student Winter School.\n29.01.2025 - 09:00 - 13:00\nInstructor:\nGáspár Jékely (Centre for Organismal Studies, Heidelberg University) gaspar.jekely@cos.uni-heidelberg.de"
   },
   {
     "objectID": "connectome.html#workshop-overview",
@@ -201,5 +201,40 @@
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "References",
     "text": "References\nSchneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., & Cardona, A. (2016). Quantitative neuroanatomy for connectomics in Drosophila. eLife, 5, e12059. https://doi.org/10.7554/eLife.12059\nBates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., & Jefferis, G. S. (2020). The natverse, a versatile toolbox for combining and analysing neuroanatomical data. eLife, 9, e53350. https://doi.org/10.7554/eLife.53350\nVerasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., & Jékely, G. (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife, 6, e26000. https://doi.org/10.7554/eLife.26000"
+  },
+  {
+    "objectID": "calcium_imaging.html",
+    "href": "calcium_imaging.html",
+    "title": "Analysis of Calcium Imaging Data",
+    "section": "",
+    "text": "Training materials for V4SDB Student Winter School.\nInstructor:\nIsaac Bianco (University College London)\ni.bianco@ucl.ac.uk"
+  },
+  {
+    "objectID": "calcium_imaging.html#workshop-overview",
+    "href": "calcium_imaging.html#workshop-overview",
+    "title": "Analysis of Calcium Imaging Data",
+    "section": "Workshop Overview",
+    "text": "Workshop Overview\nIn vivo imaging of calcium dynamics can shed light on a broad range of biological processes from cell migration and tissue morphogenesis to multiple aspects of neuronal activity. In neuroscience, a combination of modern genetically encoded calcium sensors alongside advances in imaging technology are enabling the activity of tens of thousands of neurons to be monitored in behaving animals. In parallel, advances in data processing and analysis are enabling researchers to make sense of vast population activity datasets.\nIn this workshop, we will:\n\nintroduce the key principles of calcium imaging;\nlearn how to process raw calcium imaging data and extract estimates of neuronal activity;\nexamine ways to explore large population activity datasets and relate neural dynamics to sensory stimuli, task variables, and animal behaviour.\n\nWorkshop slides will be available here (remember to update)"
+  },
+  {
+    "objectID": "calcium_imaging.html#software",
+    "href": "calcium_imaging.html#software",
+    "title": "Analysis of Calcium Imaging Data",
+    "section": "Software",
+    "text": "Software\nFiji:  - An open-source image processing package.\nSuite2p\n\nfollow the instructions under Local Installation\nbe sure to install the GUI version: python -m pip install suite2p[gui]\non the Mac you may need to use: python -m pip install 'suite2p[gui]'\n\nRastermap\n\nfollow the instructions under Local Installation\nagain, be sure to install the GUI version\nit should be fine to install it in the same suite2p environment as used above"
+  },
+  {
+    "objectID": "calcium_imaging.html#datasets",
+    "href": "calcium_imaging.html#datasets",
+    "title": "Analysis of Calcium Imaging Data",
+    "section": "Datasets",
+    "text": "Datasets\nwill be added soon"
+  },
+  {
+    "objectID": "calcium_imaging.html#references",
+    "href": "calcium_imaging.html#references",
+    "title": "Analysis of Calcium Imaging Data",
+    "section": "References",
+    "text": "References\nSuite2p Pachitariu M, Stringer C, Dipoppa M, et al. (2017) Suite2p: beyond 10,000 neurons with standard two-photon microscopy. bioRxiv https://doi.org/10.1101/061507\nSuite2p documentation: https://suite2p.readthedocs.io/en/latest/\nOASIS Friedrich, J., Zhou, P., & Paninski, L. (2017). Fast online deconvolution of calcium imaging data. PLOS Comp Bio, 13(3), e1005423. https://doi.org/10.1371/journal.pcbi.1005423\nRastermap Stringer, C., Zhong, L., Syeda, A., Du, F., Kesa, M., & Pachitariu, M. (2025). Rastermap: a discovery method for neural population recordings. Nat Neurosci, 28(1), 201–212. https://doi.org/10.1038/s41593-024-01783-4"
   }
 ]
