@@ -41,16 +41,16 @@ In this workshop, we will:
 
 ## Datasets
  
-1. a small calcium recording that we will look at in FIJI [link](https://github.com/flatironinstitute/CaImAn/blob/main/example_movies/demoMovie.tif)
-    (*You will need to click on the `Download raw file` button to download the dataset.*)
+1. a **small calcium recording** that we will look at in FIJI [link](https://github.com/flatironinstitute/CaImAn/blob/main/example_movies/demoMovie.tif)<br>
+  (*You will need to click on the `Download raw file` button to download the dataset.*)
  
-2. a large calcium imaging movie for Suite2p testing
-- download any one of the TIFF stacks in this folder [link](https://drive.google.com/drive/folders/1PCJy265NHRWYXUz7CRhbJHtd6B-zJs8f)
+2. a **large calcium imaging movie** for Suite2p testing
+    - download any one of the TIFF stacks in this folder [link](https://drive.google.com/drive/folders/1PCJy265NHRWYXUz7CRhbJHtd6B-zJs8f)
  
-3. a zebrafish calcium imaging movie for Suite2p testing [link](https://drive.google.com/drive/folders/1N6nA23iiiJ0UP-cXuYcGWeb4p-rfhERY?usp=sharing)
+3. a **zebrafish calcium imaging movie** for Suite2p testing [link](https://drive.google.com/drive/folders/1N6nA23iiiJ0UP-cXuYcGWeb4p-rfhERY?usp=sharing)
  
-4. a zebrafish activity dataset for Rastermap testing [link](https://osf.io/2w8pa)
-- plus some extra files to help interpret the fish dataset [link](https://drive.google.com/drive/folders/133ygkDbUS_0eU69OHnV__l_R5m0rUtsR?usp=sharing)
+4. a **zebrafish activity dataset** for Rastermap testing [link](https://osf.io/2w8pa)
+    - plus some extra files to help interpret the fish dataset [link](https://drive.google.com/drive/folders/133ygkDbUS_0eU69OHnV__l_R5m0rUtsR?usp=sharing)
  
 
 ---
