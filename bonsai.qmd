@@ -2,7 +2,7 @@
 title: "Introduction to Bonsai"
 ---
 
-Materials for the Bonsai introduction and tutorial 
+Materials for the  V4SDB Student Winter School Bonsai introduction and tutorial 
 
 31.01.2025 - 11:30 - 13:00
 

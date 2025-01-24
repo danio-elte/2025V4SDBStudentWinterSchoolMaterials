@@ -146,6 +146,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
   <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#install-the-python-environment" id="toc-install-the-python-environment" class="nav-link" data-scroll-target="#install-the-python-environment">Install the Python environment</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -216,6 +217,42 @@ i.bianco@ucl.ac.uk</p>
 <li>plus some extra files to help interpret the fish dataset <a href="https://drive.google.com/drive/folders/133ygkDbUS_0eU69OHnV__l_R5m0rUtsR?usp=sharing">link</a></li>
 </ul></li>
 </ol>
+</section>
+<section id="install-the-python-environment" class="level2">
+<h2 class="anchored" data-anchor-id="install-the-python-environment">Install the Python environment</h2>
+<ol type="1">
+<li><strong>Install</strong> an <a href="https://www.anaconda.com/download/">Anaconda</a> distribution of <strong>Python</strong></li>
+</ol>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="images/python_install_01.png" class="img-fluid"> <img src="images/python_install_02.png" class="img-fluid"> <img src="images/python_install_03.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<ol start="2" type="1">
+<li>Using either the command line or the Anaconda Navigator, <strong>create a new environment</strong>
+<ol type="a">
+<li>Command line: <code>conda create --name suite2p python=3.9</code> <strong>or</strong></li>
+<li>Anaconda Navigator, see pic below</li>
+</ol></li>
+</ol>
+<p><img src="images/python_install_04.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Using the command line (open “Terminal” on the Mac), <strong>activate the suite2p</strong> environment: <code>conda activate suite2p</code></li>
+</ol>
+<p><img src="images/python_install_05.png" class="img-fluid"></p>
+<ol start="4" type="1">
+<li><p>Now <strong>install suite2p</strong> by typing: <code>python -m pip install suite2p[gui]</code></p>
+<p>or on the Mac you might need: <code>python -m pip install ‘suite2p[gui]’</code> (notice the ‘ )</p></li>
+</ol>
+<p><img src="images/python_install_06.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li>Once the download is finished, <strong>launch suite2p</strong>: <code>python -m suite2p</code></li>
+</ol>
+<p><img src="images/python_install_07.png" class="img-fluid"></p>
+<p>All done!</p>
+<p><img src="images/python_install_08.png" class="img-fluid"></p>
 <hr>
 </section>
 <section id="references" class="level2">

@@ -53,6 +53,42 @@ In this workshop, we will:
     - plus some extra files to help interpret the fish dataset [link](https://drive.google.com/drive/folders/133ygkDbUS_0eU69OHnV__l_R5m0rUtsR?usp=sharing)
  
 
+## Install the Python environment
+
+1.	**Install** an [Anaconda](https://www.anaconda.com/download/) distribution of **Python**
+
+:::{layout-ncol=1}
+![](images/python_install_01.png)
+![](images/python_install_02.png)
+![](images/python_install_03.png)
+
+:::
+
+2.	Using either the command line or the Anaconda Navigator, **create a new environment**
+    a.	Command line: `conda create --name suite2p python=3.9`
+    **or**
+    b.	Anaconda Navigator, see pic below
+
+![](images/python_install_04.png)
+
+3.	Using the command line (open “Terminal” on the Mac), **activate the suite2p** environment:
+    `conda activate suite2p`
+
+![](images/python_install_05.png)
+
+4.	Now **install suite2p** by typing: `python -m pip install suite2p[gui]`
+
+    or on the Mac you might need: `python -m pip install ‘suite2p[gui]’` (notice the ‘ )
+
+![](images/python_install_06.png)
+
+5.	Once the download is finished, **launch suite2p**: `python -m suite2p`
+
+![](images/python_install_07.png)
+
+All done!
+
+![](images/python_install_08.png)
 ---
 
 ## References

@@ -236,5 +236,12 @@
     "title": "Analysis of Calcium Imaging Data",
     "section": "References",
     "text": "References\nSuite2p Pachitariu M, Stringer C, Dipoppa M, et al. (2017) Suite2p: beyond 10,000 neurons with standard two-photon microscopy. bioRxiv https://doi.org/10.1101/061507\nSuite2p documentation: https://suite2p.readthedocs.io/en/latest/\nOASIS Friedrich, J., Zhou, P., & Paninski, L. (2017). Fast online deconvolution of calcium imaging data. PLOS Comp Bio, 13(3), e1005423. https://doi.org/10.1371/journal.pcbi.1005423\nRastermap Stringer, C., Zhong, L., Syeda, A., Du, F., Kesa, M., & Pachitariu, M. (2025). Rastermap: a discovery method for neural population recordings. Nat Neurosci, 28(1), 201–212. https://doi.org/10.1038/s41593-024-01783-4"
+  },
+  {
+    "objectID": "calcium_imaging.html#install-the-python-environment",
+    "href": "calcium_imaging.html#install-the-python-environment",
+    "title": "Analysis of Calcium Imaging Data",
+    "section": "Install the Python environment",
+    "text": "Install the Python environment\n\nInstall an Anaconda distribution of Python\n\n\n\n\n  \n\n\n\n\nUsing either the command line or the Anaconda Navigator, create a new environment\n\nCommand line: conda create --name suite2p python=3.9 or\nAnaconda Navigator, see pic below\n\n\n\n\nUsing the command line (open “Terminal” on the Mac), activate the suite2p environment: conda activate suite2p\n\n\n\nNow install suite2p by typing: python -m pip install suite2p[gui]\nor on the Mac you might need: python -m pip install ‘suite2p[gui]’ (notice the ‘ )\n\n\n\nOnce the download is finished, launch suite2p: python -m suite2p\n\n\nAll done!"
   }
 ]
