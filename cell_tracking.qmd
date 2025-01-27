@@ -2,7 +2,7 @@
 title: "Object Tracking and Track Analysis using TrackMate and CellTracksColab"
 ---
 
-Training materials for V4SDB Student Winter School.
+Training materials for V4SDB Student Winter School
 
 **Instructor:**
 
@@ -15,7 +15,7 @@ In life sciences, tracking objects within movies is crucial for quantifying the 
 
 By the end of this workshop, participants will be familiar with TrackMate's tracking capabilities, will have analyzed tracking data using CellTracksColab, and will know how to export and visualize their results for further research.
 
-[Workshop slides available here (remember to update)]()
+[Workshop slides available here](https://github.com/CellMigrationLab/V4SDB_Winter_School_2025/blob/main/presentations/V4SDB_TrackMate-CellTracksColab.pdf)
 
 ---
 
@@ -53,8 +53,8 @@ By the end of this workshop, participants will be familiar with TrackMate's trac
   </tr>
 </table>
 
-**3. You need to have access to google drive** (personal or create one for the purpose of this course)
-- Unzip the 2_CellTracksColab_input.zip and upload it to your google drive
+**3. You need to have access to Google Drive** (personal or create one for the purpose of this course)
+- Unzip the 2_CellTracksColab_input.zip and upload it to your Google Drive
 - Create a new folder on you google drive called Results
 
 ## Workshop step-by-step:

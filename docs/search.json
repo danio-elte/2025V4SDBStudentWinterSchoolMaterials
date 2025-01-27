@@ -88,14 +88,14 @@
     "href": "cell_tracking.html",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School.\nInstructor:\nJoanna Pylvänäinen (Åbo Akademi University)\njoanna.pylvanainen@abo.fi"
+    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nJoanna Pylvänäinen (Åbo Akademi University)\njoanna.pylvanainen@abo.fi"
   },
   {
     "objectID": "cell_tracking.html#workshop-overview",
     "href": "cell_tracking.html#workshop-overview",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "Workshop Overview",
-    "text": "Workshop Overview\nIn life sciences, tracking objects within movies is crucial for quantifying the behaviour of particles, organelles, bacteria, cells, and entire organisms. However, tracking multiple objects across numerous movies and analysing the objects’ movements can be challenging. This workshop aims to demonstrate the effective utilization of TrackMate for object tracking across multiple movies through hands-on exercises. Additionally, participants will learn how to compile, analyse, and explore the acquired tracking data using the CellTracksColab platform. Both tools offer user-friendly interfaces tailored to life scientists without coding experience.\nBy the end of this workshop, participants will be familiar with TrackMate’s tracking capabilities, will have analyzed tracking data using CellTracksColab, and will know how to export and visualize their results for further research.\nWorkshop slides available here (remember to update)"
+    "text": "Workshop Overview\nIn life sciences, tracking objects within movies is crucial for quantifying the behaviour of particles, organelles, bacteria, cells, and entire organisms. However, tracking multiple objects across numerous movies and analysing the objects’ movements can be challenging. This workshop aims to demonstrate the effective utilization of TrackMate for object tracking across multiple movies through hands-on exercises. Additionally, participants will learn how to compile, analyse, and explore the acquired tracking data using the CellTracksColab platform. Both tools offer user-friendly interfaces tailored to life scientists without coding experience.\nBy the end of this workshop, participants will be familiar with TrackMate’s tracking capabilities, will have analyzed tracking data using CellTracksColab, and will know how to export and visualize their results for further research.\nWorkshop slides available here"
   },
   {
     "objectID": "cell_tracking.html#software",
@@ -109,7 +109,7 @@
     "href": "cell_tracking.html#hands-on-with-trackmate-and-celltrackscolab",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "Hands-on with TrackMate and CellTracksColab",
-    "text": "Hands-on with TrackMate and CellTracksColab\n\nIf you want to test the tools during the workshop please do these before the workshop:\n1. Download these datasets:\nLink to Zenodo\n\n\n0_Tracking_settings.zip\n1_TrackMate_batcher_input.zip\n2_CellTracksColab_input.zip\n\n2. Download and prepare Fiji\n\nDownload Fiji\nOpen Fiji and activate TrackMate Helper update site. Restart Fiji.\n\n\n\n\n\n\n\n\n\n\n3. You need to have access to google drive (personal or create one for the purpose of this course) - Unzip the 2_CellTracksColab_input.zip and upload it to your google drive - Create a new folder on you google drive called Results"
+    "text": "Hands-on with TrackMate and CellTracksColab\n\nIf you want to test the tools during the workshop please do these before the workshop:\n1. Download these datasets:\nLink to Zenodo\n\n\n0_Tracking_settings.zip\n1_TrackMate_batcher_input.zip\n2_CellTracksColab_input.zip\n\n2. Download and prepare Fiji\n\nDownload Fiji\nOpen Fiji and activate TrackMate Helper update site. Restart Fiji.\n\n\n\n\n\n\n\n\n\n\n3. You need to have access to Google Drive (personal or create one for the purpose of this course) - Unzip the 2_CellTracksColab_input.zip and upload it to your Google Drive - Create a new folder on you google drive called Results"
   },
   {
     "objectID": "cell_tracking.html#workshop-step-by-step",

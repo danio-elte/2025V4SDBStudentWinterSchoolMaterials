@@ -2,7 +2,7 @@
 title: "Analysis of Calcium Imaging Data"
 ---
 
-Training materials for V4SDB Student Winter School.
+Training materials for V4SDB Student Winter School
 
 **Instructor:**
 

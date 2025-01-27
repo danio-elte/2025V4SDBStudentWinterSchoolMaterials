@@ -3,7 +3,7 @@ title: "Analysis of the *Platynereis dumerilii* connectome using the CATMAID web
 interface and the API"
 ---
 
-Training materials for V4SDB Student Winter School.
+Training materials for V4SDB Student Winter School
 
 29.01.2025 - 09:00 - 13:00
 
