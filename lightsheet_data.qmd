@@ -1,0 +1,71 @@
+---
+title: "Introduction to live analysis of gastrulation and heart development in mouse"
+---
+
+Training materials for V4SDB Student Winter School
+
+**Instructor:**
+
+Kenzo Ivanovitch (University College London)  
+k.ivanovitch@ucl.ac.uk  
+
+## Workshop Overview
+
+Investigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.
+
+
+[Workshop slides will be available here (remember to update)]()
+
+---
+
+## Software
+[**Fiji**](https://imagej.net/software/fiji/downloads): <br>
+-  An open-source image processing package. 
+
+[**Bigsticher**](https://imagej.net/plugins/bigstitcher/ )
+
+-	The BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.
+
+```{=html}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=WuB7Yzop-m9jDb7O&amp;list=PLNZz8lLDpAeVOeAmQWMrKGOeB3vv28yJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+
+[**Mamut**](https://imagej.net/plugins/mamut/getting-started)
+
+*Help › Update…,* click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut
+
+[**RStudio**](https://posit.co/downloads/): 
+
+-  An integrated development environment (IDE) to work with R and Python
+https://posit.co/downloads/
+
+[**Anaconda**](https://www.anaconda.com/download) 
+
+## Data
+
+This is the [data directory](https://liveuclac-my.sharepoint.com/personal/ucklkdi_ucl_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fucklkdi%5Fucl%5Fac%5Fuk%2FDocuments%2FTeaching%2FTeaching%20Hungary%2FV4SDB%5FV2&ga=1).
+
+## Workshop step by step:
+ 
+### 1.	Movie registration
+
+We will be using BigStitcher to register the embryo in both space and time. This step is crucial, particularly if your goal is to track cells and analyse, for example, their migratory behavior. Without this registration, your results could be confounded by the movement of the embryo during acquisition.
+
+### 2.	Generation of Lineage tree
+
+You will manually track cells using MaMut to generate lineage trees. This process is essential for addressing when cells become restricted in their lineage potential during development.
+
+### 3.	Representation of the Trajectories in 3D
+You will reconstruct the 3D trajectories of cells, enabling you to assess how migratory behavior relates to cell fate specification.
+
+
+## References
+**Bigstitcher**<br>
+Hörl, D., Rojas Rusak, F., Preusser, F., Tillberg, P., Randel, N., Chhetri, R. K., Cardona, A., Keller, P. J., Harz, H., Leonhardt, H., Treier, M., & Preibisch, S. (2019). **BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples.** Nature Methods 16(9), 870–874. [https://doi.org/10.1038/s41592-019-0501-0](https://doi.org/10.1038/s41592-019-0501-0)
+
+**MaMuT**<br>
+Wolff, C., Tinevez, J. Y., Pietzsch, T., Stamataki, E., Harich, B., Guignard, L., Preibisch, S., Shorte, S., Keller, P. J., Tomancak, P., & Pavlopoulos, A. (2018). **Multi-view light-sheet imaging and tracking with the MaMuT software reveals the cell lineage of a direct developing arthropod limb.** eLife, 7, e34410. [https://doi.org/10.7554/eLife.34410](https://doi.org/10.7554/eLife.34410)
+
+Shayma Abukar, Peter A. Embacher, Alessandro Ciccarelli, Sunita Varsani-Brown, Isabel G.W. North, Jamie A. Dean, James Briscoe, Kenzo Ivanovitch (2023) **Live-imaging reveals Coordinated Cell Migration and Cardiac Fate Determination during Mammalian Gastrulation.** bioRxiv 2023.12.19.572445. [https://doi.org/10.1101/2023.12.19.572445](https://doi.org/10.1101/2023.12.19.572445)
+

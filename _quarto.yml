@@ -26,6 +26,8 @@ website:
              href: connectome.qmd
            - text: "Calcium Imaging"
              href: calcium_imaging.qmd
+           - text: "Lightsheet Data"
+             href: lightsheet_data.qmd
 
    
 format:

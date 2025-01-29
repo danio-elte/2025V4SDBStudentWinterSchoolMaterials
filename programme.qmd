@@ -34,9 +34,9 @@ title: "2025 V4SDB Winter School Programme"
 | 11:00-11:30   | Coffee Break                               |
 | 11:30-13:00   | [Morning Session II (Isaac Bianco)](calcium_imaging.qmd)          |
 | 13:00-14:30   | Lunch (buffet)                             |
-| 14:30-16:30   | Afternoon Session I (Kenzo Ivanovitch)     |
+| 14:30-16:30   | [Afternoon Session I (Kenzo Ivanovitch)](lightsheet_data.qmd)     |
 | 16:30-17:00   | Coffee Break                               |
-| 17:00-18:30   | Afternoon Session II (Kenzo Ivanovitch)    |
+| 17:00-18:30   | [Afternoon Session II (Kenzo Ivanovitch)](lightsheet_data.qmd)    |
 
 ### Friday, January 31
 

@@ -130,7 +130,7 @@
     "href": "bonsai.html",
     "title": "Introduction to Bonsai",
     "section": "",
-    "text": "Materials for the Bonsai introduction and tutorial\n31.01.2025 - 11:30 - 13:00\nInstructor:\nAdriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience) dabacan@tins.ro"
+    "text": "Materials for the V4SDB Student Winter School Bonsai introduction and tutorial\n31.01.2025 - 11:30 - 13:00\nInstructor:\nAdriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience) dabacan@tins.ro"
   },
   {
     "objectID": "bonsai.html#workshop-overview",
@@ -179,7 +179,7 @@
     "href": "connectome.html",
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School.\n29.01.2025 - 09:00 - 13:00\nInstructor:\nGáspár Jékely (Centre for Organismal Studies, Heidelberg University) gaspar.jekely@cos.uni-heidelberg.de"
+    "text": "Training materials for V4SDB Student Winter School\n29.01.2025 - 09:00 - 13:00\nInstructor:\nGáspár Jékely (Centre for Organismal Studies, Heidelberg University) gaspar.jekely@cos.uni-heidelberg.de"
   },
   {
     "objectID": "connectome.html#workshop-overview",
@@ -207,7 +207,7 @@
     "href": "calcium_imaging.html",
     "title": "Analysis of Calcium Imaging Data",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School.\nInstructor:\nIsaac Bianco (University College London)\ni.bianco@ucl.ac.uk"
+    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nIsaac Bianco (University College London)\ni.bianco@ucl.ac.uk"
   },
   {
     "objectID": "calcium_imaging.html#workshop-overview",
@@ -243,5 +243,47 @@
     "title": "Analysis of Calcium Imaging Data",
     "section": "Install the Python environment",
     "text": "Install the Python environment\n\nInstall an Anaconda distribution of Python\n\n\n\n\n  \n\n\n\n\nUsing either the command line or the Anaconda Navigator, create a new environment\n\nCommand line: conda create --name suite2p python=3.9 or\nAnaconda Navigator, see pic below\n\n\n\n\nUsing the command line (open “Terminal” on the Mac), activate the suite2p environment: conda activate suite2p\n\n\n\nNow install suite2p by typing: python -m pip install suite2p[gui]\nor on the Mac you might need: python -m pip install ‘suite2p[gui]’ (notice the ‘ )\n\n\n\nOnce the download is finished, launch suite2p: python -m suite2p\n\n\nAll done!"
+  },
+  {
+    "objectID": "lightsheet_data.html",
+    "href": "lightsheet_data.html",
+    "title": "Introduction to live analysis of gastrulation and heart development in mouse",
+    "section": "",
+    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nKenzo Ivanovitch (University College London)\nk.ivanovitch@ucl.ac.uk"
+  },
+  {
+    "objectID": "lightsheet_data.html#workshop-overview",
+    "href": "lightsheet_data.html#workshop-overview",
+    "title": "Introduction to live analysis of gastrulation and heart development in mouse",
+    "section": "Workshop Overview",
+    "text": "Workshop Overview\nInvestigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.\nWorkshop slides will be available here (remember to update)"
+  },
+  {
+    "objectID": "lightsheet_data.html#software",
+    "href": "lightsheet_data.html#software",
+    "title": "Introduction to live analysis of gastrulation and heart development in mouse",
+    "section": "Software",
+    "text": "Software\nFiji:  - An open-source image processing package.\nBigsticher\n\nThe BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.\n\n\nMamut\nHelp › Update…, click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut\nRStudio:\n\nAn integrated development environment (IDE) to work with R and Python https://posit.co/downloads/\n\nAnaconda"
+  },
+  {
+    "objectID": "lightsheet_data.html#workshop-step-by-step",
+    "href": "lightsheet_data.html#workshop-step-by-step",
+    "title": "Introduction to live analysis of gastrulation and heart development in mouse",
+    "section": "Workshop step by step:",
+    "text": "Workshop step by step:\n\n1. Movie registration\nWe will be using BigStitcher to register the embryo in both space and time. This step is crucial, particularly if your goal is to track cells and analyse, for example, their migratory behavior. Without this registration, your results could be confounded by the movement of the embryo during acquisition.\n\n\n2. Generation of Lineage tree\nYou will manually track cells using MaMut to generate lineage trees. This process is essential for addressing when cells become restricted in their lineage potential during development.\n\n\n3. Representation of the Trajectories in 3D\nYou will reconstruct the 3D trajectories of cells, enabling you to assess how migratory behavior relates to cell fate specification."
+  },
+  {
+    "objectID": "lightsheet_data.html#references",
+    "href": "lightsheet_data.html#references",
+    "title": "Introduction to live analysis of gastrulation and heart development in mouse",
+    "section": "References",
+    "text": "References\nBigstitcher Hörl, D., Rojas Rusak, F., Preusser, F., Tillberg, P., Randel, N., Chhetri, R. K., Cardona, A., Keller, P. J., Harz, H., Leonhardt, H., Treier, M., & Preibisch, S. (2019). BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples. Nature Methods 16(9), 870–874. https://doi.org/10.1038/s41592-019-0501-0\nMaMuT Wolff, C., Tinevez, J. Y., Pietzsch, T., Stamataki, E., Harich, B., Guignard, L., Preibisch, S., Shorte, S., Keller, P. J., Tomancak, P., & Pavlopoulos, A. (2018). Multi-view light-sheet imaging and tracking with the MaMuT software reveals the cell lineage of a direct developing arthropod limb. eLife, 7, e34410. https://doi.org/10.7554/eLife.34410\nShayma Abukar, Peter A. Embacher, Alessandro Ciccarelli, Sunita Varsani-Brown, Isabel G.W. North, Jamie A. Dean, James Briscoe, Kenzo Ivanovitch (2023) Live-imaging reveals Coordinated Cell Migration and Cardiac Fate Determination during Mammalian Gastrulation. bioRxiv 2023.12.19.572445. https://doi.org/10.1101/2023.12.19.572445"
+  },
+  {
+    "objectID": "lightsheet_data.html#data",
+    "href": "lightsheet_data.html#data",
+    "title": "Introduction to live analysis of gastrulation and heart development in mouse",
+    "section": "Data",
+    "text": "Data\nThis is the data directory."
   }
 ]

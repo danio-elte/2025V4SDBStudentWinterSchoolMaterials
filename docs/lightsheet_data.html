@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2025 V4SDB Student Winter School - Introduction to Bonsai</title>
+<title>2025 V4SDB Student Winter School - Introduction to live analysis of gastrulation and heart development in mouse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Introduction to Bonsai</h1>
+      <h1 class="quarto-secondary-nav-title">Introduction to live analysis of gastrulation and heart development in mouse</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bonsai.html" class="sidebar-item-text sidebar-link active">Bonsai</a>
+  <a href="./bonsai.html" class="sidebar-item-text sidebar-link">Bonsai</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lightsheet_data.html" class="sidebar-item-text sidebar-link">Lightsheet Data</a>
+  <a href="./lightsheet_data.html" class="sidebar-item-text sidebar-link active">Lightsheet Data</a>
   </div>
 </li>
       </ul>
@@ -150,9 +150,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
-  <li><a href="#prepare-the-field" id="toc-prepare-the-field" class="nav-link" data-scroll-target="#prepare-the-field">Prepare the field</a></li>
-  <li><a href="#workshop-step-by-step" id="toc-workshop-step-by-step" class="nav-link" data-scroll-target="#workshop-step-by-step">Workshop step-by-step</a></li>
-  <li><a href="#bonsai-resources" id="toc-bonsai-resources" class="nav-link" data-scroll-target="#bonsai-resources">Bonsai Resources</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#workshop-step-by-step" id="toc-workshop-step-by-step" class="nav-link" data-scroll-target="#workshop-step-by-step">Workshop step by step:</a>
+  <ul class="collapse">
+  <li><a href="#movie-registration" id="toc-movie-registration" class="nav-link" data-scroll-target="#movie-registration">1. Movie registration</a></li>
+  <li><a href="#generation-of-lineage-tree" id="toc-generation-of-lineage-tree" class="nav-link" data-scroll-target="#generation-of-lineage-tree">2. Generation of Lineage tree</a></li>
+  <li><a href="#representation-of-the-trajectories-in-3d" id="toc-representation-of-the-trajectories-in-3d" class="nav-link" data-scroll-target="#representation-of-the-trajectories-in-3d">3. Representation of the Trajectories in 3D</a></li>
+  </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -162,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Introduction to Bonsai</h1>
+<h1 class="title d-none d-lg-block">Introduction to live analysis of gastrulation and heart development in mouse</h1>
 </div>
 
 
@@ -177,57 +181,56 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Materials for the V4SDB Student Winter School Bonsai introduction and tutorial</p>
-<p>31.01.2025 - 11:30 - 13:00</p>
+<p>Training materials for V4SDB Student Winter School</p>
 <p><strong>Instructor:</strong></p>
-<p>Adriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience)<br> dabacan@tins.ro</p>
+<p>Kenzo Ivanovitch (University College London)<br>
+k.ivanovitch@ucl.ac.uk</p>
 <section id="workshop-overview" class="level2">
 <h2 class="anchored" data-anchor-id="workshop-overview">Workshop Overview</h2>
-<p>During the session, we will present Bonsai as a reactive programming tool usefull when designing and analyzing behavioral experiments. We will go through the potential applications for Bonsai and its most relevant usecases. Then, we will get familiar with this tool by implementing a simple workflow combining animal tracking with closed loop control. We will showcase basic programming principles and will open the door for addressing more complex needs in experimental design.</p>
-<p>By the end of the workshop, participants will be familiar with Bonsai as a tool for behavioral experimental control and will understand its basic principles of operation. They will have a good source of documentation and will be able to join the community for further support.</p>
-<p><a href="">slides (to be updated)</a></p>
+<p>Investigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.</p>
+<p><a href="">Workshop slides will be available here (remember to update)</a></p>
+<hr>
 </section>
 <section id="software" class="level2">
 <h2 class="anchored" data-anchor-id="software">Software</h2>
-<p><a href="https://bonsai-rx.org/docs/articles/installation.html"><strong>Bonsai</strong></a>:</p>
+<p><a href="https://imagej.net/software/fiji/downloads"><strong>Fiji</strong></a>: <br> - An open-source image processing package.</p>
+<p><a href="https://imagej.net/plugins/bigstitcher/"><strong>Bigsticher</strong></a></p>
 <ul>
-<li>An open-source visual reactive programming software for interactive systems.</li>
-<li>built to work with .NET framework in Windows 7 or later.</li>
-<li>for Linux installation, see pointers <a href="https://github.com/orgs/bonsai-rx/discussions/1101">here</a>.</li>
+<li>The BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.</li>
 </ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=WuB7Yzop-m9jDb7O&amp;list=PLNZz8lLDpAeVOeAmQWMrKGOeB3vv28yJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<p><a href="https://imagej.net/plugins/mamut/getting-started"><strong>Mamut</strong></a></p>
+<p><em>Help › Update…,</em> click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut</p>
+<p><a href="https://posit.co/downloads/"><strong>RStudio</strong></a>:</p>
+<ul>
+<li>An integrated development environment (IDE) to work with R and Python https://posit.co/downloads/</li>
+</ul>
+<p><a href="https://www.anaconda.com/download"><strong>Anaconda</strong></a></p>
 </section>
-<section id="prepare-the-field" class="level2">
-<h2 class="anchored" data-anchor-id="prepare-the-field">Prepare the field</h2>
-<ul>
-<li>Download and install <a href="https://bonsai-rx.org/docs/articles/installation.html">Bonsai</a>.</li>
-<li>Install the Starter Pack from the Package Manager.</li>
-<li>Check out the Bonsai Gallery and make sure the example workflows work on your station.</li>
-<li>Download the <a href="https://github.com/dabacana/V4SDB_Bonsai_Intro/blob/main/mouse_arena.avi">video file</a> for this workshop.</li>
-</ul>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>This is the <a href="https://liveuclac-my.sharepoint.com/personal/ucklkdi_ucl_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fucklkdi%5Fucl%5Fac%5Fuk%2FDocuments%2FTeaching%2FTeaching%20Hungary%2FV4SDB%5FV2&amp;ga=1">data directory</a>.</p>
 </section>
 <section id="workshop-step-by-step" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-step-by-step">Workshop step-by-step</h2>
-<ol type="1">
-<li>Open and visualize video file.</li>
-<li>Detect animal using simple image processing functions.</li>
-<li>Compute centroid coordinates in arena.</li>
-<li>Implement simple conditionals using Logical operators.</li>
-<li>Integrate python scripting for more complex logics.</li>
-<li>Trigger some digital line/speaker when animal leaves predetermined home area.</li>
-</ol>
+<h2 class="anchored" data-anchor-id="workshop-step-by-step">Workshop step by step:</h2>
+<section id="movie-registration" class="level3">
+<h3 class="anchored" data-anchor-id="movie-registration">1. Movie registration</h3>
+<p>We will be using BigStitcher to register the embryo in both space and time. This step is crucial, particularly if your goal is to track cells and analyse, for example, their migratory behavior. Without this registration, your results could be confounded by the movement of the embryo during acquisition.</p>
 </section>
-<section id="bonsai-resources" class="level2">
-<h2 class="anchored" data-anchor-id="bonsai-resources">Bonsai Resources</h2>
-<ul>
-<li><a href="https://bonsai-rx.org/docs/">Documentation</a></li>
-<li><a href="https://github.com/orgs/bonsai-rx/discussions">Github Forum</a></li>
-<li><a href="https://discord.com/invite/QcthRPuZnr">Public Discord Server</a></li>
-<li><a href="https://bonsai-rx.org/learn/">Learning Resources</a></li>
-</ul>
+<section id="generation-of-lineage-tree" class="level3">
+<h3 class="anchored" data-anchor-id="generation-of-lineage-tree">2. Generation of Lineage tree</h3>
+<p>You will manually track cells using MaMut to generate lineage trees. This process is essential for addressing when cells become restricted in their lineage potential during development.</p>
+</section>
+<section id="representation-of-the-trajectories-in-3d" class="level3">
+<h3 class="anchored" data-anchor-id="representation-of-the-trajectories-in-3d">3. Representation of the Trajectories in 3D</h3>
+<p>You will reconstruct the 3D trajectories of cells, enabling you to assess how migratory behavior relates to cell fate specification.</p>
+</section>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Lopes, G., Bonacchi, N., Frazão, J., Neto, J. P., Atallah, B. V., Soares, S., … &amp; Kampff, A. R. (2015). <strong>Bonsai: an event-based framework for processing and controlling data streams.</strong> *Frontiers in Neuroinformatics**, 9, 7. <a href="https://doi.org/10.3389/fninf.2015.00007">https://doi.org/10.3389/fninf.2015.00007</a></p>
+<p><strong>Bigstitcher</strong><br> Hörl, D., Rojas Rusak, F., Preusser, F., Tillberg, P., Randel, N., Chhetri, R. K., Cardona, A., Keller, P. J., Harz, H., Leonhardt, H., Treier, M., &amp; Preibisch, S. (2019). <strong>BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples.</strong> Nature Methods 16(9), 870–874. <a href="https://doi.org/10.1038/s41592-019-0501-0">https://doi.org/10.1038/s41592-019-0501-0</a></p>
+<p><strong>MaMuT</strong><br> Wolff, C., Tinevez, J. Y., Pietzsch, T., Stamataki, E., Harich, B., Guignard, L., Preibisch, S., Shorte, S., Keller, P. J., Tomancak, P., &amp; Pavlopoulos, A. (2018). <strong>Multi-view light-sheet imaging and tracking with the MaMuT software reveals the cell lineage of a direct developing arthropod limb.</strong> eLife, 7, e34410. <a href="https://doi.org/10.7554/eLife.34410">https://doi.org/10.7554/eLife.34410</a></p>
+<p>Shayma Abukar, Peter A. Embacher, Alessandro Ciccarelli, Sunita Varsani-Brown, Isabel G.W. North, Jamie A. Dean, James Briscoe, Kenzo Ivanovitch (2023) <strong>Live-imaging reveals Coordinated Cell Migration and Cardiac Fate Determination during Mammalian Gastrulation.</strong> bioRxiv 2023.12.19.572445. <a href="https://doi.org/10.1101/2023.12.19.572445">https://doi.org/10.1101/2023.12.19.572445</a></p>
 
 
 </section>
