@@ -20,6 +20,7 @@ Investigating the collective behaviors and cell fate decisions that drive tissue
 
 ## Software
 [**Fiji**](https://imagej.net/software/fiji/downloads): <br>
+
 -  An open-source image processing package. 
 
 [**Bigsticher**](https://imagej.net/plugins/bigstitcher/ )
@@ -31,9 +32,13 @@ Investigating the collective behaviors and cell fate decisions that drive tissue
 ```
 
 
-[**Mamut**](https://imagej.net/plugins/mamut/getting-started)
+[**MaMuT**](https://imagej.net/plugins/mamut/getting-started)
 
-*Help › Update…,* click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut
+- A Fiji plugin for the annotation of massive, multi-view data.
+
+::: {.callout-tip}
+Within Fiji: *Help › Update…,* click `Manage update sites` and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut
+:::
 
 [**RStudio**](https://posit.co/downloads/): 
 

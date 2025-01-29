@@ -263,7 +263,7 @@
     "href": "lightsheet_data.html#software",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "Software",
-    "text": "Software\nFiji:  - An open-source image processing package.\nBigsticher\n\nThe BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.\n\n\nMamut\nHelp › Update…, click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut\nRStudio:\n\nAn integrated development environment (IDE) to work with R and Python https://posit.co/downloads/\n\nAnaconda"
+    "text": "Software\nFiji: \n\nAn open-source image processing package.\n\nBigsticher\n\nThe BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.\n\n\nMaMuT\n\nA Fiji plugin for the annotation of massive, multi-view data.\n\n\n\n\n\n\n\nTip\n\n\n\nWithin Fiji: Help › Update…, click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut\n\n\nRStudio:\n\nAn integrated development environment (IDE) to work with R and Python https://posit.co/downloads/\n\nAnaconda"
   },
   {
     "objectID": "lightsheet_data.html#workshop-step-by-step",
