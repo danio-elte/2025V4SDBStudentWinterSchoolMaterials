@@ -58,7 +58,7 @@ By the end of this workshop, participants will be familiar with TrackMate's trac
 
 **3. You need to have access to GoogleDrive** (personal or create one for the purpose of this course)
 
-- Unzip the 2_CellTracksColab_input.zip and upload it to your GoogleDrive
+- Unzip the `2_CellTracksColab_input.zip` and upload it to your GoogleDrive
 
 - Create a new folder on you GoogleDrive called Results
 
