@@ -14,7 +14,7 @@ k.ivanovitch@ucl.ac.uk
 Investigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.
 
 
-[Workshop slides will be available here (remember to update)]()
+[Workshop slides will be available here](https://liveuclac-my.sharepoint.com/:p:/r/personal/ucklkdi_ucl_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7B88CC307C-FE65-40B7-82B6-AD93690F52A1%7D&file=V4SDB_talk.pptx&action=edit&mobileredirect=true)
 
 ---
 
