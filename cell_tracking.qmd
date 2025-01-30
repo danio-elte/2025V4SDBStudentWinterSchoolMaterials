@@ -45,6 +45,8 @@ By the end of this workshop, participants will be familiar with TrackMate's trac
 **2. Download and prepare Fiji**
 
 - [Download Fiji](https://fiji.sc/)
+- if new to Fiji here are some [training materials on Zenodo](https://zenodo.org/records/14771563) with step-by-step exercises
+
 - Open Fiji and activate **TrackMate Helper** update site. Restart Fiji.
 
 <table>
@@ -53,17 +55,21 @@ By the end of this workshop, participants will be familiar with TrackMate's trac
   </tr>
 </table>
 
-**3. You need to have access to Google Drive** (personal or create one for the purpose of this course)
-- Unzip the 2_CellTracksColab_input.zip and upload it to your Google Drive
-- Create a new folder on you google drive called Results
+
+**3. You need to have access to GoogleDrive** (personal or create one for the purpose of this course)
+
+- Unzip the 2_CellTracksColab_input.zip and upload it to your GoogleDrive
+
+- Create a new folder on you GoogleDrive called Results
 
 ## Workshop step-by-step:
 
 **1. Cell Tracking with TrackMate**
-- Open Fiji and the image *image_for_tracking_settings* -image from the *0_Tracking_settings* folder.
+
+- Open Fiji and open the `image_for_tracking_settings`  image from the `0_Tracking_settings` folder.
 - Define tracking parameters in the **TrackMate interface**.
 - **Save traking settings** as XML for batch processing.
-- Open the TrackMate batcher to **Batch process** all images from the *1_TrackMate_batcher_input* -folder.
+- Open the TrackMate batcher to **Batch process** all images from the `1_TrackMate_batcher_input`  folder.
 - **Export tracking data** (spot tables, track tables, movies).
 
 **2. Analyze TrackMate output in CellTracksColab.**
@@ -75,7 +81,7 @@ By the end of this workshop, participants will be familiar with TrackMate's trac
   </tr>
 </table>
 
-- You can also use the pre-made CellTracksColab input from the *2_CellTracksColab_input* -folder
+- You can also use the pre-made CellTracksColab input from the `2_CellTracksColab_input` folder
 - Create a new folder for results
 - Open The [CellTracksColab TrackMate notebook](https://colab.research.google.com/github/guijacquemet/CellTracksColab/blob/main/Notebook/CellTracksColab_TrackMate.ipynb) and make a copy to your drive. 
 - Run all cells to visualize tracks and to generate plots.
