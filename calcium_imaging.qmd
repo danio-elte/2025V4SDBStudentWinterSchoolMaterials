@@ -19,7 +19,7 @@ In this workshop, we will:
 2) learn how to process raw calcium imaging data and extract estimates of neuronal activity; 
 3) examine ways to explore large population activity datasets and relate neural dynamics to sensory stimuli, task variables, and animal behaviour.
 
-[Workshop slides will be available here (remember to update)]()
+[Workshop slides will be available here](https://drive.google.com/file/d/18b4fpOTZzjI3tizzddwo8PibFpz-b-DT/view?usp=drive_link)
 
 ---
 
