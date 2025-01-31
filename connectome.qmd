@@ -30,26 +30,27 @@ We will use the [public EM resources](https://catmaid.jekelylab.ex.ac.uk/) of th
 
 Accessing CATMAID via the API from Rstudio.
 
-Install [RStudio](https://posit.co/downloads/): 
+Install [**RStudio**](https://posit.co/downloads/): 
 
 -  An integrated development environment (IDE) to work with R and Python
-https://posit.co/downloads/
 
-Install necessary packages from RStudio, including Natverse/Catmaid:
+
+Install **necessary packages** from RStudio, including Natverse/Catmaid:
 
 - R tools for quantitative neuroanatomy, a package that provides access
 to the CATMAID API for R users. 
 [https://github.com/natverse/rcatmaid](https://github.com/natverse/rcatmaid)
 
-Install the [Tidyverse](https://tidyverse.tidyverse.org/):
+Install the [**Tidyverse**](https://tidyverse.tidyverse.org/):
 
 - a set of packages that work in harmony because they share common data
 representations and API design
-https://tidyverse.tidyverse.org/
+
 
 We will use the following GitHub repo:
 [https://github.com/JekelyLab/ELTE_Catmaid_course_25](https://github.com/JekelyLab/ELTE_Catmaid_course_25)
-(still work in progress, so only clone during the course)
+
+Here are [detailed instructions](https://github.com/JekelyLab/ELTE_Catmaid_course_25/blob/main/ELTE_CATMAID_Presentation.qmd) about what to do.
 
 Repo of the *Platynereis* connectome paper, including the code for all
 analyses and figures: [https://github.com/JekelyLab/Platynereis_3D_connectome_2024](https://github.com/JekelyLab/Platynereis_3D_connectome_2024)

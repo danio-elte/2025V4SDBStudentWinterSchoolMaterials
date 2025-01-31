@@ -88,202 +88,349 @@
     "href": "cell_tracking.html",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nJoanna Pylvänäinen (Åbo Akademi University)\njoanna.pylvanainen@abo.fi"
+    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nJoanna Pylvänäinen (Åbo Akademi University)\njoanna.pylvanainen@abo.fi",
+    "crumbs": [
+      "Tutorials",
+      "Cell Tracking"
+    ]
   },
   {
     "objectID": "cell_tracking.html#workshop-overview",
     "href": "cell_tracking.html#workshop-overview",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "Workshop Overview",
-    "text": "Workshop Overview\nIn life sciences, tracking objects within movies is crucial for quantifying the behaviour of particles, organelles, bacteria, cells, and entire organisms. However, tracking multiple objects across numerous movies and analysing the objects’ movements can be challenging. This workshop aims to demonstrate the effective utilization of TrackMate for object tracking across multiple movies through hands-on exercises. Additionally, participants will learn how to compile, analyse, and explore the acquired tracking data using the CellTracksColab platform. Both tools offer user-friendly interfaces tailored to life scientists without coding experience.\nBy the end of this workshop, participants will be familiar with TrackMate’s tracking capabilities, will have analyzed tracking data using CellTracksColab, and will know how to export and visualize their results for further research.\nWorkshop slides available here"
+    "text": "Workshop Overview\nIn life sciences, tracking objects within movies is crucial for quantifying the behaviour of particles, organelles, bacteria, cells, and entire organisms. However, tracking multiple objects across numerous movies and analysing the objects’ movements can be challenging. This workshop aims to demonstrate the effective utilization of TrackMate for object tracking across multiple movies through hands-on exercises. Additionally, participants will learn how to compile, analyse, and explore the acquired tracking data using the CellTracksColab platform. Both tools offer user-friendly interfaces tailored to life scientists without coding experience.\nBy the end of this workshop, participants will be familiar with TrackMate’s tracking capabilities, will have analyzed tracking data using CellTracksColab, and will know how to export and visualize their results for further research.\nWorkshop slides available here",
+    "crumbs": [
+      "Tutorials",
+      "Cell Tracking"
+    ]
   },
   {
     "objectID": "cell_tracking.html#software",
     "href": "cell_tracking.html#software",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "Software:",
-    "text": "Software:\nTrackMate:  - An open-source FIJI/ImageJ plugin for tracking cells/particles in 2D microscopy images.\nCellTracksColab:  - A cloud-based platform for analyzing tracking data."
+    "text": "Software:\nTrackMate:  - An open-source FIJI/ImageJ plugin for tracking cells/particles in 2D microscopy images.\nCellTracksColab:  - A cloud-based platform for analyzing tracking data.",
+    "crumbs": [
+      "Tutorials",
+      "Cell Tracking"
+    ]
   },
   {
     "objectID": "cell_tracking.html#hands-on-with-trackmate-and-celltrackscolab",
     "href": "cell_tracking.html#hands-on-with-trackmate-and-celltrackscolab",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "Hands-on with TrackMate and CellTracksColab",
-    "text": "Hands-on with TrackMate and CellTracksColab\n\nIf you want to test the tools during the workshop please do these before the workshop:\n1. Download these datasets:\nLink to Zenodo\n\n\n0_Tracking_settings.zip\n1_TrackMate_batcher_input.zip\n2_CellTracksColab_input.zip\n\n2. Download and prepare Fiji\n\nDownload Fiji\nif new to Fiji here are some training materials on Zenodo with step-by-step exercises\nOpen Fiji and activate TrackMate Helper update site. Restart Fiji.\n\n\n\n\n\n\n\n\n\n\n3. You need to have access to GoogleDrive (personal or create one for the purpose of this course)\n\nUnzip the 2_CellTracksColab_input.zip and upload it to your GoogleDrive\nCreate a new folder on you GoogleDrive called Results"
+    "text": "Hands-on with TrackMate and CellTracksColab\n\nIf you want to test the tools during the workshop please do these before the workshop:\n1. Download these datasets:\nLink to Zenodo\n\n\n0_Tracking_settings.zip\n1_TrackMate_batcher_input.zip\n2_CellTracksColab_input.zip\n\n2. Download and prepare Fiji\n\nDownload Fiji\nif new to Fiji here are some training materials on Zenodo with step-by-step exercises\nOpen Fiji and activate TrackMate Helper update site. Restart Fiji.\n\n\n\n\n\n\n\n\n3. You need to have access to GoogleDrive (personal or create one for the purpose of this course)\n\nUnzip the 2_CellTracksColab_input.zip and upload it to your GoogleDrive\nCreate a new folder on you GoogleDrive called Results",
+    "crumbs": [
+      "Tutorials",
+      "Cell Tracking"
+    ]
   },
   {
     "objectID": "cell_tracking.html#workshop-step-by-step",
     "href": "cell_tracking.html#workshop-step-by-step",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "Workshop step-by-step:",
-    "text": "Workshop step-by-step:\n1. Cell Tracking with TrackMate\n\nOpen Fiji and open the image_for_tracking_settings image from the 0_Tracking_settings folder.\nDefine tracking parameters in the TrackMate interface.\nSave traking settings as XML for batch processing.\nOpen the TrackMate batcher to Batch process all images from the 1_TrackMate_batcher_input folder.\nExport tracking data (spot tables, track tables, movies).\n\n2. Analyze TrackMate output in CellTracksColab.\n\nUpload your tracking results to your Google Drive. Make sure that the folders are correctly organized.\n\n\n\n\n\n\n\n\n\nYou can also use the pre-made CellTracksColab input from the 2_CellTracksColab_input folder\nCreate a new folder for results\nOpen The CellTracksColab TrackMate notebook and make a copy to your drive.\nRun all cells to visualize tracks and to generate plots.\nBonus: Utilize advanced dimensionality reduction techniques to understand your data using Dimensionality Reduction notebook\n\n\n\n\n\n\n\nCheck out the video from I2K:"
+    "text": "Workshop step-by-step:\n1. Cell Tracking with TrackMate\n\nOpen Fiji and open the image_for_tracking_settings image from the 0_Tracking_settings folder.\nDefine tracking parameters in the TrackMate interface.\nSave traking settings as XML for batch processing.\nOpen the TrackMate batcher to Batch process all images from the 1_TrackMate_batcher_input folder.\nExport tracking data (spot tables, track tables, movies).\n\n2. Analyze TrackMate output in CellTracksColab.\n\nUpload your tracking results to your Google Drive. Make sure that the folders are correctly organized.\n\n\n\n\n\n\n\nYou can also use the pre-made CellTracksColab input from the 2_CellTracksColab_input folder\nCreate a new folder for results\nOpen The CellTracksColab TrackMate notebook and make a copy to your drive.\nRun all cells to visualize tracks and to generate plots.\nBonus: Utilize advanced dimensionality reduction techniques to understand your data using Dimensionality Reduction notebook\n\n\n\n\n\n\n\nCheck out the video from I2K:",
+    "crumbs": [
+      "Tutorials",
+      "Cell Tracking"
+    ]
   },
   {
     "objectID": "cell_tracking.html#references",
     "href": "cell_tracking.html#references",
     "title": "Object Tracking and Track Analysis using TrackMate and CellTracksColab",
     "section": "References",
-    "text": "References\nTrackMate Ershov, D., Phan, M. S., Pylvänäinen, J. W., Rigaud, S. U., Le Blanc, L., Charles-Orszag, A., Conway, J. R. W., Laine, R. F., Roy, N. H., Bonazzi, D., Duménil, G., Jacquemet, G., & Tinevez, J. Y. (2022). TrackMate 7: integrating state-of-the-art segmentation algorithms into tracking pipelines. Nature Methods, 19(7), 829–832. https://doi.org/10.1038/s41592-022-01507-1\nCellTracksColab Gómez-de-Mariscal, E., Grobe, H., Pylvänäinen, J. W., Xénard, L., Henriques, R., Tinevez, J. Y., & Jacquemet, G. (2024). CellTracksColab is a platform that enables compilation, analysis, and exploration of cell tracking data. PLOS Biology, 22(8), e3002740. https://doi.org/10.1371/journal.pbio.3002740\nT-Cell Dataset Guillaume Jacquemet. (2023). T cell dataset for CellTracksColab - 2 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8420011"
+    "text": "References\nTrackMate Ershov, D., Phan, M. S., Pylvänäinen, J. W., Rigaud, S. U., Le Blanc, L., Charles-Orszag, A., Conway, J. R. W., Laine, R. F., Roy, N. H., Bonazzi, D., Duménil, G., Jacquemet, G., & Tinevez, J. Y. (2022). TrackMate 7: integrating state-of-the-art segmentation algorithms into tracking pipelines. Nature Methods, 19(7), 829–832. https://doi.org/10.1038/s41592-022-01507-1\nCellTracksColab Gómez-de-Mariscal, E., Grobe, H., Pylvänäinen, J. W., Xénard, L., Henriques, R., Tinevez, J. Y., & Jacquemet, G. (2024). CellTracksColab is a platform that enables compilation, analysis, and exploration of cell tracking data. PLOS Biology, 22(8), e3002740. https://doi.org/10.1371/journal.pbio.3002740\nT-Cell Dataset Guillaume Jacquemet. (2023). T cell dataset for CellTracksColab - 2 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8420011",
+    "crumbs": [
+      "Tutorials",
+      "Cell Tracking"
+    ]
   },
   {
     "objectID": "bonsai.html",
     "href": "bonsai.html",
     "title": "Introduction to Bonsai",
     "section": "",
-    "text": "Materials for the V4SDB Student Winter School Bonsai introduction and tutorial\n31.01.2025 - 11:30 - 13:00\nInstructor:\nAdriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience) dabacan@tins.ro\nSee Github link here."
+    "text": "Materials for the V4SDB Student Winter School Bonsai introduction and tutorial\n31.01.2025 - 11:30 - 13:00\nInstructor:\nAdriana Nagy-Dăbâcan (Transylvanian Institute of Neuroscience) dabacan@tins.ro\nSee Github link here.",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "bonsai.html#workshop-overview",
     "href": "bonsai.html#workshop-overview",
     "title": "Introduction to Bonsai",
     "section": "Workshop Overview",
-    "text": "Workshop Overview\nDuring the session, we will present Bonsai as a reactive programming tool usefull when designing and analyzing behavioral experiments. We will go through the potential applications for Bonsai and its most relevant usecases. Then, we will get familiar with this tool by implementing a simple workflow combining animal tracking with closed loop control. We will showcase basic programming principles and will open the door for addressing more complex needs in experimental design.\nBy the end of the workshop, participants will be familiar with Bonsai as a tool for behavioral experimental control and will understand its basic principles of operation. They will have a good source of documentation and will be able to join the community for further support.\nWorkshop slides"
+    "text": "Workshop Overview\nDuring the session, we will present Bonsai as a reactive programming tool usefull when designing and analyzing behavioral experiments. We will go through the potential applications for Bonsai and its most relevant usecases. Then, we will get familiar with this tool by implementing a simple workflow combining animal tracking with closed loop control. We will showcase basic programming principles and will open the door for addressing more complex needs in experimental design.\nBy the end of the workshop, participants will be familiar with Bonsai as a tool for behavioral experimental control and will understand its basic principles of operation. They will have a good source of documentation and will be able to join the community for further support.\nWorkshop slides",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "bonsai.html#software",
     "href": "bonsai.html#software",
     "title": "Introduction to Bonsai",
     "section": "Software",
-    "text": "Software\nBonsai:\n\nAn open-source visual reactive programming software for interactive systems.\nbuilt to work with .NET framework in Windows 7 or later.\nfor Linux installation, see pointers here."
+    "text": "Software\nBonsai:\n\nAn open-source visual reactive programming software for interactive systems.\nbuilt to work with .NET framework in Windows 7 or later.\nfor Linux installation, see pointers here.",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "bonsai.html#prepare-the-field",
     "href": "bonsai.html#prepare-the-field",
     "title": "Introduction to Bonsai",
     "section": "Prepare the field",
-    "text": "Prepare the field\n\nDownload and install Bonsai.\nInstall the Starter Pack from the Package Manager.\nCheck out the Bonsai Gallery and make sure the example workflows work on your station.\nDownload the video file for this workshop."
+    "text": "Prepare the field\n\nDownload and install Bonsai.\nInstall the Starter Pack from the Package Manager.\nCheck out the Bonsai Gallery and make sure the example workflows work on your station.\nDownload the video file for this workshop.",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "bonsai.html#workshop-step-by-step",
     "href": "bonsai.html#workshop-step-by-step",
     "title": "Introduction to Bonsai",
     "section": "Workshop step-by-step",
-    "text": "Workshop step-by-step\n\nOpen and visualize video file.\nDetect animal using simple image processing functions.\nCompute centroid coordinates in arena.\nImplement simple conditionals using Logical operators.\nIntegrate python scripting for more complex logics.\nTrigger some digital line/speaker when animal leaves predetermined home area."
+    "text": "Workshop step-by-step\n\nOpen and visualize video file.\nDetect animal using simple image processing functions.\nCompute centroid coordinates in arena.\nImplement simple conditionals using Logical operators.\nIntegrate python scripting for more complex logics.\nTrigger some digital line/speaker when animal leaves predetermined home area.",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "bonsai.html#bonsai-resources",
     "href": "bonsai.html#bonsai-resources",
     "title": "Introduction to Bonsai",
     "section": "Bonsai Resources",
-    "text": "Bonsai Resources\n\nDocumentation\nGithub Forum\nPublic Discord Server\nLearning Resources"
+    "text": "Bonsai Resources\n\nDocumentation\nGithub Forum\nPublic Discord Server\nLearning Resources",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "bonsai.html#references",
     "href": "bonsai.html#references",
     "title": "Introduction to Bonsai",
     "section": "References",
-    "text": "References\nLopes, G., Bonacchi, N., Frazão, J., Neto, J. P., Atallah, B. V., Soares, S., … & Kampff, A. R. (2015). Bonsai: an event-based framework for processing and controlling data streams. *Frontiers in Neuroinformatics**, 9, 7. https://doi.org/10.3389/fninf.2015.00007"
+    "text": "References\nLopes, G., Bonacchi, N., Frazão, J., Neto, J. P., Atallah, B. V., Soares, S., … & Kampff, A. R. (2015). Bonsai: an event-based framework for processing and controlling data streams. *Frontiers in Neuroinformatics**, 9, 7. https://doi.org/10.3389/fninf.2015.00007",
+    "crumbs": [
+      "Tutorials",
+      "Bonsai"
+    ]
   },
   {
     "objectID": "connectome.html",
     "href": "connectome.html",
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School\n29.01.2025 - 09:00 - 13:00\nInstructor:\nGáspár Jékely (Centre for Organismal Studies, Heidelberg University) gaspar.jekely@cos.uni-heidelberg.de"
+    "text": "Training materials for V4SDB Student Winter School\n29.01.2025 - 09:00 - 13:00\nInstructor:\nGáspár Jékely (Centre for Organismal Studies, Heidelberg University) gaspar.jekely@cos.uni-heidelberg.de",
+    "crumbs": [
+      "Tutorials",
+      "Connectome Analysis"
+    ]
   },
   {
     "objectID": "connectome.html#workshop-overview",
     "href": "connectome.html#workshop-overview",
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "Workshop Overview",
-    "text": "Workshop Overview\nNeuronal connectomics relies on ever increasing datasets of volume electron microscopy (vEM) data that are analysed either manually (skeletonisation) or by AI-assisted segmentation tools, followed by extensive proofreading. The workshop will give an introduction into the web-based collaborative tracing and annotaton platform CATMAID used for connectome analysis. The first part will explore the CATMAID web interface and introduce into the core functions. We will analyse a large dataset from our laboratory containing the whole-body connectome of the larval stage of the marine annelid Platynereis dumerilii, our model organism. In the second part, we will try to repeat some of the analysis by using RStudio and the R package Natverse. This package accesses the same CATMAID webside via the API (application programming interface) and can fetch data from our connectome server. The data can then be analysed in standard R workflows of network analysis, plotting, statistics, figure assembly and paper writing. I will also give a brief introduction into this open science workflow, as it is used in our lab."
+    "text": "Workshop Overview\nNeuronal connectomics relies on ever increasing datasets of volume electron microscopy (vEM) data that are analysed either manually (skeletonisation) or by AI-assisted segmentation tools, followed by extensive proofreading. The workshop will give an introduction into the web-based collaborative tracing and annotaton platform CATMAID used for connectome analysis. The first part will explore the CATMAID web interface and introduce into the core functions. We will analyse a large dataset from our laboratory containing the whole-body connectome of the larval stage of the marine annelid Platynereis dumerilii, our model organism. In the second part, we will try to repeat some of the analysis by using RStudio and the R package Natverse. This package accesses the same CATMAID webside via the API (application programming interface) and can fetch data from our connectome server. The data can then be analysed in standard R workflows of network analysis, plotting, statistics, figure assembly and paper writing. I will also give a brief introduction into this open science workflow, as it is used in our lab.",
+    "crumbs": [
+      "Tutorials",
+      "Connectome Analysis"
+    ]
   },
   {
     "objectID": "connectome.html#software",
     "href": "connectome.html#software",
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "Software",
-    "text": "Software\n\nFirst Part\nCATMAID - The Collaborative Annotation Toolkit for Massive Amounts of Image Data\n(Web-based software, no installation needed)\nWe will use the public EM resources of the Jékely lab and look into the whole-body connectome of the Platynereis dumerilii larva.\n\n\nSecond part\nAccessing CATMAID via the API from Rstudio.\nInstall RStudio:\n\nAn integrated development environment (IDE) to work with R and Python https://posit.co/downloads/\n\nInstall necessary packages from RStudio, including Natverse/Catmaid:\n\nR tools for quantitative neuroanatomy, a package that provides access to the CATMAID API for R users. https://github.com/natverse/rcatmaid\n\nInstall the Tidyverse:\n\na set of packages that work in harmony because they share common data representations and API design https://tidyverse.tidyverse.org/\n\nWe will use the following GitHub repo: https://github.com/JekelyLab/ELTE_Catmaid_course_25 (still work in progress, so only clone during the course)\nRepo of the Platynereis connectome paper, including the code for all analyses and figures: https://github.com/JekelyLab/Platynereis_3D_connectome_2024"
+    "text": "Software\n\nFirst Part\nCATMAID - The Collaborative Annotation Toolkit for Massive Amounts of Image Data\n(Web-based software, no installation needed)\nWe will use the public EM resources of the Jékely lab and look into the whole-body connectome of the Platynereis dumerilii larva.\n\n\nSecond part\nAccessing CATMAID via the API from Rstudio.\nInstall RStudio:\n\nAn integrated development environment (IDE) to work with R and Python\n\nInstall necessary packages from RStudio, including Natverse/Catmaid:\n\nR tools for quantitative neuroanatomy, a package that provides access to the CATMAID API for R users. https://github.com/natverse/rcatmaid\n\nInstall the Tidyverse:\n\na set of packages that work in harmony because they share common data representations and API design\n\nWe will use the following GitHub repo: https://github.com/JekelyLab/ELTE_Catmaid_course_25\nHere are detailed instructions about what to do.\nRepo of the Platynereis connectome paper, including the code for all analyses and figures: https://github.com/JekelyLab/Platynereis_3D_connectome_2024",
+    "crumbs": [
+      "Tutorials",
+      "Connectome Analysis"
+    ]
   },
   {
     "objectID": "connectome.html#references",
     "href": "connectome.html#references",
     "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
     "section": "References",
-    "text": "References\nSchneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., & Cardona, A. (2016). Quantitative neuroanatomy for connectomics in Drosophila. eLife, 5, e12059. https://doi.org/10.7554/eLife.12059\nBates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., & Jefferis, G. S. (2020). The natverse, a versatile toolbox for combining and analysing neuroanatomical data. eLife, 9, e53350. https://doi.org/10.7554/eLife.53350\nVerasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., & Jékely, G. (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife, 6, e26000. https://doi.org/10.7554/eLife.26000"
+    "text": "References\nSchneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., & Cardona, A. (2016). Quantitative neuroanatomy for connectomics in Drosophila. eLife, 5, e12059. https://doi.org/10.7554/eLife.12059\nBates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., & Jefferis, G. S. (2020). The natverse, a versatile toolbox for combining and analysing neuroanatomical data. eLife, 9, e53350. https://doi.org/10.7554/eLife.53350\nVerasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., & Jékely, G. (2017). Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the Platynereis larva. eLife, 6, e26000. https://doi.org/10.7554/eLife.26000",
+    "crumbs": [
+      "Tutorials",
+      "Connectome Analysis"
+    ]
   },
   {
     "objectID": "calcium_imaging.html",
     "href": "calcium_imaging.html",
     "title": "Analysis of Calcium Imaging Data",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nIsaac Bianco (University College London)\ni.bianco@ucl.ac.uk"
+    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nIsaac Bianco (University College London)\ni.bianco@ucl.ac.uk",
+    "crumbs": [
+      "Tutorials",
+      "Calcium Imaging"
+    ]
   },
   {
     "objectID": "calcium_imaging.html#workshop-overview",
     "href": "calcium_imaging.html#workshop-overview",
     "title": "Analysis of Calcium Imaging Data",
     "section": "Workshop Overview",
-    "text": "Workshop Overview\nIn vivo imaging of calcium dynamics can shed light on a broad range of biological processes from cell migration and tissue morphogenesis to multiple aspects of neuronal activity. In neuroscience, a combination of modern genetically encoded calcium sensors alongside advances in imaging technology are enabling the activity of tens of thousands of neurons to be monitored in behaving animals. In parallel, advances in data processing and analysis are enabling researchers to make sense of vast population activity datasets.\nIn this workshop, we will:\n\nintroduce the key principles of calcium imaging;\nlearn how to process raw calcium imaging data and extract estimates of neuronal activity;\nexamine ways to explore large population activity datasets and relate neural dynamics to sensory stimuli, task variables, and animal behaviour.\n\nWorkshop slides will be available here"
+    "text": "Workshop Overview\nIn vivo imaging of calcium dynamics can shed light on a broad range of biological processes from cell migration and tissue morphogenesis to multiple aspects of neuronal activity. In neuroscience, a combination of modern genetically encoded calcium sensors alongside advances in imaging technology are enabling the activity of tens of thousands of neurons to be monitored in behaving animals. In parallel, advances in data processing and analysis are enabling researchers to make sense of vast population activity datasets.\nIn this workshop, we will:\n\nintroduce the key principles of calcium imaging;\nlearn how to process raw calcium imaging data and extract estimates of neuronal activity;\nexamine ways to explore large population activity datasets and relate neural dynamics to sensory stimuli, task variables, and animal behaviour.\n\nWorkshop slides will be available here",
+    "crumbs": [
+      "Tutorials",
+      "Calcium Imaging"
+    ]
   },
   {
     "objectID": "calcium_imaging.html#software",
     "href": "calcium_imaging.html#software",
     "title": "Analysis of Calcium Imaging Data",
     "section": "Software",
-    "text": "Software\nFiji:  - An open-source image processing package.\nSuite2p\n\nfollow the instructions under Local Installation\nbe sure to install the GUI version: python -m pip install suite2p[gui]\non the Mac you may need to use: python -m pip install 'suite2p[gui]'\n\nRastermap\n\nfollow the instructions under Local Installation\nagain, be sure to install the GUI version\nit should be fine to install it in the same suite2p environment as used above"
+    "text": "Software\nFiji:  - An open-source image processing package.\nSuite2p\n\nfollow the instructions under Local Installation\nbe sure to install the GUI version: python -m pip install suite2p[gui]\non the Mac you may need to use: python -m pip install 'suite2p[gui]'\n\nRastermap\n\nfollow the instructions under Local Installation\nagain, be sure to install the GUI version\nit should be fine to install it in the same suite2p environment as used above",
+    "crumbs": [
+      "Tutorials",
+      "Calcium Imaging"
+    ]
   },
   {
     "objectID": "calcium_imaging.html#datasets",
     "href": "calcium_imaging.html#datasets",
     "title": "Analysis of Calcium Imaging Data",
     "section": "Datasets",
-    "text": "Datasets\n\na small calcium recording that we will look at in FIJI link (You will need to click on the Download raw file button to download the dataset.)\na large calcium imaging movie for Suite2p testing\n\ndownload any one of the TIFF stacks in this folder link\n\na zebrafish calcium imaging movie for Suite2p testing link\na zebrafish activity dataset for Rastermap testing link\n\nplus some extra files to help interpret the fish dataset link"
+    "text": "Datasets\n\na small calcium recording that we will look at in FIJI link (You will need to click on the Download raw file button to download the dataset.)\na large calcium imaging movie for Suite2p testing\n\ndownload any one of the TIFF stacks in this folder link\n\na zebrafish calcium imaging movie for Suite2p testing link\na zebrafish activity dataset for Rastermap testing link\n\nplus some extra files to help interpret the fish dataset link",
+    "crumbs": [
+      "Tutorials",
+      "Calcium Imaging"
+    ]
   },
   {
     "objectID": "calcium_imaging.html#references",
     "href": "calcium_imaging.html#references",
     "title": "Analysis of Calcium Imaging Data",
     "section": "References",
-    "text": "References\nSuite2p Pachitariu M, Stringer C, Dipoppa M, et al. (2017) Suite2p: beyond 10,000 neurons with standard two-photon microscopy. bioRxiv https://doi.org/10.1101/061507\nSuite2p documentation: https://suite2p.readthedocs.io/en/latest/\nOASIS Friedrich, J., Zhou, P., & Paninski, L. (2017). Fast online deconvolution of calcium imaging data. PLOS Comp Bio, 13(3), e1005423. https://doi.org/10.1371/journal.pcbi.1005423\nRastermap Stringer, C., Zhong, L., Syeda, A., Du, F., Kesa, M., & Pachitariu, M. (2025). Rastermap: a discovery method for neural population recordings. Nat Neurosci, 28(1), 201–212. https://doi.org/10.1038/s41593-024-01783-4"
+    "text": "References\nSuite2p Pachitariu M, Stringer C, Dipoppa M, et al. (2017) Suite2p: beyond 10,000 neurons with standard two-photon microscopy. bioRxiv https://doi.org/10.1101/061507\nSuite2p documentation: https://suite2p.readthedocs.io/en/latest/\nOASIS Friedrich, J., Zhou, P., & Paninski, L. (2017). Fast online deconvolution of calcium imaging data. PLOS Comp Bio, 13(3), e1005423. https://doi.org/10.1371/journal.pcbi.1005423\nRastermap Stringer, C., Zhong, L., Syeda, A., Du, F., Kesa, M., & Pachitariu, M. (2025). Rastermap: a discovery method for neural population recordings. Nat Neurosci, 28(1), 201–212. https://doi.org/10.1038/s41593-024-01783-4",
+    "crumbs": [
+      "Tutorials",
+      "Calcium Imaging"
+    ]
   },
   {
     "objectID": "calcium_imaging.html#install-the-python-environment",
     "href": "calcium_imaging.html#install-the-python-environment",
     "title": "Analysis of Calcium Imaging Data",
     "section": "Install the Python environment",
-    "text": "Install the Python environment\n\nInstall an Anaconda distribution of Python\n\n\n\n\n  \n\n\n\n\nUsing either the command line or the Anaconda Navigator, create a new environment\n\nCommand line: conda create --name suite2p python=3.9 or\nAnaconda Navigator, see pic below\n\n\n\n\nUsing the command line (open “Terminal” on the Mac), activate the suite2p environment: conda activate suite2p\n\n\n\nNow install suite2p by typing: python -m pip install suite2p[gui]\nor on the Mac you might need: python -m pip install ‘suite2p[gui]’ (notice the ‘ )\n\n\n\nOnce the download is finished, launch suite2p: python -m suite2p\n\n\nAll done!"
+    "text": "Install the Python environment\n\nInstall an Anaconda distribution of Python\n\n\n\n\n\n\n\n  \n\n\n\n\nUsing either the command line or the Anaconda Navigator, create a new environment\n\nCommand line: conda create --name suite2p python=3.9 or\nAnaconda Navigator, see pic below\n\n\n\n\nUsing the command line (open “Terminal” on the Mac), activate the suite2p environment: conda activate suite2p\n\n\n\nNow install suite2p by typing: python -m pip install suite2p[gui]\nor on the Mac you might need: python -m pip install ‘suite2p[gui]’ (notice the ‘ )\n\n\n\nOnce the download is finished, launch suite2p: python -m suite2p\n\n\nAll done!",
+    "crumbs": [
+      "Tutorials",
+      "Calcium Imaging"
+    ]
   },
   {
     "objectID": "lightsheet_data.html",
     "href": "lightsheet_data.html",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "",
-    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nKenzo Ivanovitch (University College London)\nk.ivanovitch@ucl.ac.uk"
+    "text": "Training materials for V4SDB Student Winter School\nInstructor:\nKenzo Ivanovitch (University College London)\nk.ivanovitch@ucl.ac.uk",
+    "crumbs": [
+      "Tutorials",
+      "Lightsheet Data"
+    ]
   },
   {
     "objectID": "lightsheet_data.html#workshop-overview",
     "href": "lightsheet_data.html#workshop-overview",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "Workshop Overview",
-    "text": "Workshop Overview\nInvestigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.\nWorkshop slides will be available here"
+    "text": "Workshop Overview\nInvestigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.\nWorkshop slides will be available here",
+    "crumbs": [
+      "Tutorials",
+      "Lightsheet Data"
+    ]
   },
   {
     "objectID": "lightsheet_data.html#software",
     "href": "lightsheet_data.html#software",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "Software",
-    "text": "Software\nFiji: \n\nAn open-source image processing package.\n\nBigsticher\n\nThe BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.\n\n\nMaMuT\n\nA Fiji plugin for the annotation of massive, multi-view data.\n\n\n\n\n\n\n\nTip\n\n\n\nWithin Fiji: Help › Update…, click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut\n\n\nRStudio:\n\nAn integrated development environment (IDE) to work with R and Python https://posit.co/downloads/\n\nAnaconda"
+    "text": "Software\nFiji: \n\nAn open-source image processing package.\n\nBigsticher\n\nThe BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.\n\n\nMaMuT\n\nA Fiji plugin for the annotation of massive, multi-view data.\n\n\n\n\n\n\n\nTip\n\n\n\nWithin Fiji: Help › Update…, click Manage update sites and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut\n\n\nRStudio:\n\nAn integrated development environment (IDE) to work with R and Python https://posit.co/downloads/\n\nAnaconda",
+    "crumbs": [
+      "Tutorials",
+      "Lightsheet Data"
+    ]
   },
   {
     "objectID": "lightsheet_data.html#workshop-step-by-step",
     "href": "lightsheet_data.html#workshop-step-by-step",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "Workshop step by step:",
-    "text": "Workshop step by step:\n\n1. Movie registration\nWe will be using BigStitcher to register the embryo in both space and time. This step is crucial, particularly if your goal is to track cells and analyse, for example, their migratory behavior. Without this registration, your results could be confounded by the movement of the embryo during acquisition.\n\n\n2. Generation of Lineage tree\nYou will manually track cells using MaMut to generate lineage trees. This process is essential for addressing when cells become restricted in their lineage potential during development.\n\n\n3. Representation of the Trajectories in 3D\nYou will reconstruct the 3D trajectories of cells, enabling you to assess how migratory behavior relates to cell fate specification."
+    "text": "Workshop step by step:\n\n1. Movie registration\nWe will be using BigStitcher to register the embryo in both space and time. This step is crucial, particularly if your goal is to track cells and analyse, for example, their migratory behavior. Without this registration, your results could be confounded by the movement of the embryo during acquisition.\n\n\n2. Generation of Lineage tree\nYou will manually track cells using MaMut to generate lineage trees. This process is essential for addressing when cells become restricted in their lineage potential during development.\n\n\n3. Representation of the Trajectories in 3D\nYou will reconstruct the 3D trajectories of cells, enabling you to assess how migratory behavior relates to cell fate specification.",
+    "crumbs": [
+      "Tutorials",
+      "Lightsheet Data"
+    ]
   },
   {
     "objectID": "lightsheet_data.html#references",
     "href": "lightsheet_data.html#references",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "References",
-    "text": "References\nBigstitcher Hörl, D., Rojas Rusak, F., Preusser, F., Tillberg, P., Randel, N., Chhetri, R. K., Cardona, A., Keller, P. J., Harz, H., Leonhardt, H., Treier, M., & Preibisch, S. (2019). BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples. Nature Methods 16(9), 870–874. https://doi.org/10.1038/s41592-019-0501-0\nMaMuT Wolff, C., Tinevez, J. Y., Pietzsch, T., Stamataki, E., Harich, B., Guignard, L., Preibisch, S., Shorte, S., Keller, P. J., Tomancak, P., & Pavlopoulos, A. (2018). Multi-view light-sheet imaging and tracking with the MaMuT software reveals the cell lineage of a direct developing arthropod limb. eLife, 7, e34410. https://doi.org/10.7554/eLife.34410\nShayma Abukar, Peter A. Embacher, Alessandro Ciccarelli, Sunita Varsani-Brown, Isabel G.W. North, Jamie A. Dean, James Briscoe, Kenzo Ivanovitch (2023) Live-imaging reveals Coordinated Cell Migration and Cardiac Fate Determination during Mammalian Gastrulation. bioRxiv 2023.12.19.572445. https://doi.org/10.1101/2023.12.19.572445"
+    "text": "References\nBigstitcher Hörl, D., Rojas Rusak, F., Preusser, F., Tillberg, P., Randel, N., Chhetri, R. K., Cardona, A., Keller, P. J., Harz, H., Leonhardt, H., Treier, M., & Preibisch, S. (2019). BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples. Nature Methods 16(9), 870–874. https://doi.org/10.1038/s41592-019-0501-0\nMaMuT Wolff, C., Tinevez, J. Y., Pietzsch, T., Stamataki, E., Harich, B., Guignard, L., Preibisch, S., Shorte, S., Keller, P. J., Tomancak, P., & Pavlopoulos, A. (2018). Multi-view light-sheet imaging and tracking with the MaMuT software reveals the cell lineage of a direct developing arthropod limb. eLife, 7, e34410. https://doi.org/10.7554/eLife.34410\nShayma Abukar, Peter A. Embacher, Alessandro Ciccarelli, Sunita Varsani-Brown, Isabel G.W. North, Jamie A. Dean, James Briscoe, Kenzo Ivanovitch (2023) Live-imaging reveals Coordinated Cell Migration and Cardiac Fate Determination during Mammalian Gastrulation. bioRxiv 2023.12.19.572445. https://doi.org/10.1101/2023.12.19.572445",
+    "crumbs": [
+      "Tutorials",
+      "Lightsheet Data"
+    ]
   },
   {
     "objectID": "lightsheet_data.html#data",
     "href": "lightsheet_data.html#data",
     "title": "Introduction to live analysis of gastrulation and heart development in mouse",
     "section": "Data",
-    "text": "Data\nThis is the data directory."
+    "text": "Data\nThis is the data directory.",
+    "crumbs": [
+      "Tutorials",
+      "Lightsheet Data"
+    ]
+  },
+  {
+    "objectID": "open_science.html",
+    "href": "open_science.html",
+    "title": "Open Science in (In)Action: Why, What, and How",
+    "section": "",
+    "text": "Public Lecture by Gáspár Jékely",
+    "crumbs": [
+      "OpenScience lecture"
+    ]
+  },
+  {
+    "objectID": "open_science.html#slides",
+    "href": "open_science.html#slides",
+    "title": "Open Science in (In)Action: Why, What, and How",
+    "section": "Slides",
+    "text": "Slides\n    View slides in full screen",
+    "crumbs": [
+      "OpenScience lecture"
+    ]
+  },
+  {
+    "objectID": "connectome.html#slides",
+    "href": "connectome.html#slides",
+    "title": "Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API",
+    "section": "Slides",
+    "text": "Slides\n    View slides in full screen",
+    "crumbs": [
+      "Tutorials",
+      "Connectome Analysis"
+    ]
   }
 ]

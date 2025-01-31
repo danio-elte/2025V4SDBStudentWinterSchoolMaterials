@@ -1,0 +1,9 @@
+---
+title: "Open Science in (In)Action: Why, What, and How"
+---
+
+Public Lecture by [Gáspár Jékely](https://jekelylab.github.io) (Centre for Organismal Studies, Heidelberg University)
+
+## Slides
+
+{{< revealjs file="https://jekelylab.github.io/ELTE_Open_Science_28Jan2025.html" height="500px" class="ratio ratio-16x9" >}}

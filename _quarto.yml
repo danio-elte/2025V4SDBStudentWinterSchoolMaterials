@@ -16,6 +16,8 @@ website:
         href: index.qmd
       - text: "Programme"
         href: programme.qmd
+      - text: "OpenScience Lecture"
+        href: open_science.qmd
       - section: "Tutorials"
         contents: 
            - text: "Cell Tracking"

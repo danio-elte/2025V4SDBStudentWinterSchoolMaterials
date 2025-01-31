@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction to live analysis of gastrulation and heart development in mouse – 2025 V4SDB Student Winter School</title>
+<title>Open Science in (In)Action: Why, What, and How – 2025 V4SDB Student Winter School</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,6 +65,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+ 
+  <style>
+  .slide-deck {
+      border: 3px solid #dee2e6;
+      width: 100%;
+  }
+  </style>
+  
 
 
 <link rel="stylesheet" href="styles.css">
@@ -79,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cell_tracking.html">Tutorials</a></li><li class="breadcrumb-item"><a href="./lightsheet_data.html">Lightsheet Data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./open_science.html">OpenScience lecture</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -121,8 +129,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./open_science.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">OpenScience Lecture</span></a>
+  <a href="./open_science.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">OpenScience lecture</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -160,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lightsheet_data.html" class="sidebar-item-text sidebar-link active">
+  <a href="./lightsheet_data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lightsheet Data</span></a>
   </div>
 </li>
@@ -176,25 +184,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a></li>
-  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
-  <li><a href="#workshop-step-by-step" id="toc-workshop-step-by-step" class="nav-link" data-scroll-target="#workshop-step-by-step">Workshop step by step:</a>
-  <ul class="collapse">
-  <li><a href="#movie-registration" id="toc-movie-registration" class="nav-link" data-scroll-target="#movie-registration">1. Movie registration</a></li>
-  <li><a href="#generation-of-lineage-tree" id="toc-generation-of-lineage-tree" class="nav-link" data-scroll-target="#generation-of-lineage-tree">2. Generation of Lineage tree</a></li>
-  <li><a href="#representation-of-the-trajectories-in-3d" id="toc-representation-of-the-trajectories-in-3d" class="nav-link" data-scroll-target="#representation-of-the-trajectories-in-3d">3. Representation of the Trajectories in 3D</a></li>
-  </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cell_tracking.html">Tutorials</a></li><li class="breadcrumb-item"><a href="./lightsheet_data.html">Lightsheet Data</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to live analysis of gastrulation and heart development in mouse</h1>
+<h1 class="title">Open Science in (In)Action: Why, What, and How</h1>
 </div>
 
 
@@ -211,74 +210,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Training materials for V4SDB Student Winter School</p>
-<p><strong>Instructor:</strong></p>
-<p>Kenzo Ivanovitch (University College London)<br>
-k.ivanovitch@ucl.ac.uk</p>
-<section id="workshop-overview" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-overview">Workshop Overview</h2>
-<p>Investigating the collective behaviors and cell fate decisions that drive tissue and organ development requires live-imaging technologies capable of bridging molecular and organ scales, while also supporting long-term imaging over periods ranging from tens of hours to days. In this tutorial, I will present our research on heart development and demonstrate how light sheet microscopy, combined with advanced image analysis, can help answer fundamental questions in developmental biology.</p>
-<p><a href="https://liveuclac-my.sharepoint.com/:p:/r/personal/ucklkdi_ucl_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7B88CC307C-FE65-40B7-82B6-AD93690F52A1%7D&amp;file=V4SDB_talk.pptx&amp;action=edit&amp;mobileredirect=true">Workshop slides will be available here</a></p>
-<hr>
-</section>
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<p><a href="https://imagej.net/software/fiji/downloads"><strong>Fiji</strong></a>: <br></p>
-<ul>
-<li>An open-source image processing package.</li>
-</ul>
-<p><a href="https://imagej.net/plugins/bigstitcher/"><strong>Bigsticher</strong></a></p>
-<ul>
-<li>The BigStitcher is a software package that allows simple and efficient alignment of multi-tile and multi-angle image datasets, for example acquired by lightsheet, widefield or confocal microscopes.</li>
-</ul>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=WuB7Yzop-m9jDb7O&amp;list=PLNZz8lLDpAeVOeAmQWMrKGOeB3vv28yJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-<p><a href="https://imagej.net/plugins/mamut/getting-started"><strong>MaMuT</strong></a></p>
-<ul>
-<li>A Fiji plugin for the annotation of massive, multi-view data.</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Within Fiji: <em>Help › Update…,</em> click <code>Manage update sites</code> and select BigStitcher and MaMut in the list. After applying the changes and restarting Fiji, BigStitcher and MaMut will be available under Plugins › BigStitcher › BigStitcher and Plugins › MaMut</p>
-</div>
-</div>
-<p><a href="https://posit.co/downloads/"><strong>RStudio</strong></a>:</p>
-<ul>
-<li>An integrated development environment (IDE) to work with R and Python https://posit.co/downloads/</li>
-</ul>
-<p><a href="https://www.anaconda.com/download"><strong>Anaconda</strong></a></p>
-</section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>This is the <a href="https://liveuclac-my.sharepoint.com/:f:/g/personal/ucklkdi_ucl_ac_uk/EjUpOE4nfOpCiwKNeizpq7wBCYZ9luDw53eL3VZimcesBg?e=XZDhHs">data directory</a>.</p>
-</section>
-<section id="workshop-step-by-step" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-step-by-step">Workshop step by step:</h2>
-<section id="movie-registration" class="level3">
-<h3 class="anchored" data-anchor-id="movie-registration">1. Movie registration</h3>
-<p>We will be using BigStitcher to register the embryo in both space and time. This step is crucial, particularly if your goal is to track cells and analyse, for example, their migratory behavior. Without this registration, your results could be confounded by the movement of the embryo during acquisition.</p>
-</section>
-<section id="generation-of-lineage-tree" class="level3">
-<h3 class="anchored" data-anchor-id="generation-of-lineage-tree">2. Generation of Lineage tree</h3>
-<p>You will manually track cells using MaMut to generate lineage trees. This process is essential for addressing when cells become restricted in their lineage potential during development.</p>
-</section>
-<section id="representation-of-the-trajectories-in-3d" class="level3">
-<h3 class="anchored" data-anchor-id="representation-of-the-trajectories-in-3d">3. Representation of the Trajectories in 3D</h3>
-<p>You will reconstruct the 3D trajectories of cells, enabling you to assess how migratory behavior relates to cell fate specification.</p>
-</section>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p><strong>Bigstitcher</strong><br> Hörl, D., Rojas Rusak, F., Preusser, F., Tillberg, P., Randel, N., Chhetri, R. K., Cardona, A., Keller, P. J., Harz, H., Leonhardt, H., Treier, M., &amp; Preibisch, S. (2019). <strong>BigStitcher: reconstructing high-resolution image datasets of cleared and expanded samples.</strong> Nature Methods 16(9), 870–874. <a href="https://doi.org/10.1038/s41592-019-0501-0">https://doi.org/10.1038/s41592-019-0501-0</a></p>
-<p><strong>MaMuT</strong><br> Wolff, C., Tinevez, J. Y., Pietzsch, T., Stamataki, E., Harich, B., Guignard, L., Preibisch, S., Shorte, S., Keller, P. J., Tomancak, P., &amp; Pavlopoulos, A. (2018). <strong>Multi-view light-sheet imaging and tracking with the MaMuT software reveals the cell lineage of a direct developing arthropod limb.</strong> eLife, 7, e34410. <a href="https://doi.org/10.7554/eLife.34410">https://doi.org/10.7554/eLife.34410</a></p>
-<p>Shayma Abukar, Peter A. Embacher, Alessandro Ciccarelli, Sunita Varsani-Brown, Isabel G.W. North, Jamie A. Dean, James Briscoe, Kenzo Ivanovitch (2023) <strong>Live-imaging reveals Coordinated Cell Migration and Cardiac Fate Determination during Mammalian Gastrulation.</strong> bioRxiv 2023.12.19.572445. <a href="https://doi.org/10.1101/2023.12.19.572445">https://doi.org/10.1101/2023.12.19.572445</a></p>
+<p>Public Lecture by Gáspár Jékely</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+    <p><a href="https://jekelylab.github.io/ELTE_Open_Science_28Jan2025.html" target="_blank">View slides in full screen</a></p>
+       <div class="ratio ratio-16x9">
+      <iframe class="slide-deck" src="https://jekelylab.github.io/ELTE_Open_Science_28Jan2025.html" height="500px"></iframe>
+    </div>
+  
 
 
 </section>
