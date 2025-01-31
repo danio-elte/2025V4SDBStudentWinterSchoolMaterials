@@ -42,7 +42,7 @@ title: "2025 V4SDB Winter School Programme"
 
 | Time          | Activity                                    |
 |:--------------|:--------------------------------------------|
-| 09:00-11:00   | Morning Session I (Giulia Bertolin - online) |
+| 09:00-11:00   | ~~Morning Session I (Giulia Bertolin - online)~~ (Cancelled) |
 | 11:00-11:30   | Coffee Break                               |
 | 11:30-13:00   | [Morning Session II (Adriana Nagy-Dăbâcan)](bonsai.qmd)       |
 | 13:00-13:30   | Closing remarks, Lunch (take away)         |
