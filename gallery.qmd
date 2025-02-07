@@ -1,0 +1,31 @@
+---
+title: "2025 V4SDB Winter School - Picture Gallery"
+lightbox: auto
+---
+
+:::{layout-ncol=2}
+![](images/V4SDB-GasparJekely.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB-AdrianaDabacan.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+
+![](images/V4SDB-JoannaPylvanainen.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB-IsaacBianco.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB-KenzoIvanovtich.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_winterSchool_01.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_winterSchool_02.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_winterSchool_03.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_winterSchool_04.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_winterSchool_05.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_winterSchool_06.jpg){group="V4SDBWinterSchool2025-gallery"}
+
+![](images/V4SDB_GroupPhoto.jpg){group="V4SDBWinterSchool2025-gallery"}
+:::

@@ -30,7 +30,9 @@ website:
              href: calcium_imaging.qmd
            - text: "Lightsheet Data"
              href: lightsheet_data.qmd
-
+      - text: "Gallery"
+        href: gallery.qmd
+ 
    
 format:
   html:
