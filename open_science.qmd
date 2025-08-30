@@ -7,3 +7,9 @@ Public Lecture by [Gáspár Jékely](https://jekelylab.github.io) (Centre for Or
 ## Slides
 
 {{< revealjs file="https://jekelylab.github.io/ELTE_Open_Science_28Jan2025.html" height="500px" class="ratio ratio-16x9" >}}
+
+## Video
+
+```{=html}
+<iframe title="Open Science in (In)Action: Why, What, and How | Gáspár Jékely at the 2025 V4SDB Student Winter School" width="800" height="500" src="https://tubedu.org/videos/embed/hDK2pZvRmWGRihLTUwmtg6" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+```
