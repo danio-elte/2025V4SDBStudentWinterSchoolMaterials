@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Analysis of the Platynereis dumerilii connectome using the CATMAID web interface and the API – 2025 V4SDB Student Winter School</title>
+<title>A 2025-ös V4SDB Téli Iskola Programja – 2025 V4SDB Student Winter School</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cell_tracking.html">Tutorials</a></li><li class="breadcrumb-item"><a href="./connectome.html">Connectome Analysis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./program_hu.html">Program (HU)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./program_hu.html" class="sidebar-item-text sidebar-link">
+  <a href="./program_hu.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Program (HU)</span></a>
   </div>
 </li>
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./connectome.html" class="sidebar-item-text sidebar-link active">
+  <a href="./connectome.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Connectome Analysis</span></a>
   </div>
 </li>
@@ -194,22 +194,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#workshop-overview" id="toc-workshop-overview" class="nav-link active" data-scroll-target="#workshop-overview">Workshop Overview</a></li>
-  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a>
+  <li><a href="#előzetes-program" id="toc-előzetes-program" class="nav-link active" data-scroll-target="#előzetes-program">Előzetes program</a>
   <ul class="collapse">
-  <li><a href="#first-part" id="toc-first-part" class="nav-link" data-scroll-target="#first-part">First Part</a></li>
-  <li><a href="#second-part" id="toc-second-part" class="nav-link" data-scroll-target="#second-part">Second part</a></li>
+  <li><a href="#kedd-január-28." id="toc-kedd-január-28." class="nav-link" data-scroll-target="#kedd-január-28.">Kedd, Január 28.</a></li>
+  <li><a href="#szerda-január-29." id="toc-szerda-január-29." class="nav-link" data-scroll-target="#szerda-január-29.">Szerda, Január 29.</a></li>
+  <li><a href="#csütörtök-január-30." id="toc-csütörtök-január-30." class="nav-link" data-scroll-target="#csütörtök-január-30.">Csütörtök, Január 30.</a></li>
+  <li><a href="#péntek-január-31." id="toc-péntek-január-31." class="nav-link" data-scroll-target="#péntek-január-31.">Péntek, Január 31.</a></li>
   </ul></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#helyszím" id="toc-helyszím" class="nav-link" data-scroll-target="#helyszím">Helyszím</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cell_tracking.html">Tutorials</a></li><li class="breadcrumb-item"><a href="./connectome.html">Connectome Analysis</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Analysis of the <em>Platynereis dumerilii</em> connectome using the CATMAID web interface and the API</h1>
+<h1 class="title">A 2025-ös V4SDB Téli Iskola Programja</h1>
 </div>
 
 
@@ -226,47 +227,176 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Training materials for V4SDB Student Winter School</p>
-<p>29.01.2025 - 09:00 - 13:00</p>
-<p><strong>Instructor:</strong></p>
-<p>Gáspár Jékely (Centre for Organismal Studies, Heidelberg University)<br> gaspar.jekely@cos.uni-heidelberg.de</p>
-<section id="workshop-overview" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-overview">Workshop Overview</h2>
-<p>Neuronal connectomics relies on ever increasing datasets of volume electron microscopy (vEM) data that are analysed either manually (skeletonisation) or by AI-assisted segmentation tools, followed by extensive proofreading. The workshop will give an introduction into the web-based collaborative tracing and annotaton platform CATMAID used for connectome analysis. The first part will explore the CATMAID web interface and introduce into the core functions. We will analyse a large dataset from our laboratory containing the whole-body connectome of the larval stage of the marine annelid Platynereis dumerilii, our model organism. In the second part, we will try to repeat some of the analysis by using RStudio and the R package Natverse. This package accesses the same CATMAID webside via the API (application programming interface) and can fetch data from our connectome server. The data can then be analysed in standard R workflows of network analysis, plotting, statistics, figure assembly and paper writing. I will also give a brief introduction into this open science workflow, as it is used in our lab.</p>
+<section id="előzetes-program" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="előzetes-program">Előzetes program</h2>
+<section id="kedd-január-28." class="level3">
+<h3 class="anchored" data-anchor-id="kedd-január-28.">Kedd, Január 28.</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Időpont</th>
+<th style="text-align: left;">Program</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">13:00-14:00</td>
+<td style="text-align: left;">Regisztráció</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14:00-15:00</td>
+<td style="text-align: left;"><strong>“Open Science in (In)Action: Why, What, and How”</strong><br> <a href="./open_science.html">Prof.&nbsp;Jékely Gáspár nyílr előadása (angolul)</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15:00-16:00</td>
+<td style="text-align: left;">Kávészünet, Regisztráció</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16:00-17:30</td>
+<td style="text-align: left;">Hallgatók rövid előadásai (flash talks)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">20:00-23:00</td>
+<td style="text-align: left;">Szociális program, ismerkedés ( <a href="https://maps.app.goo.gl/FUw6Qk3jtZvpqaRZ9">A Grund</a>)</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<section id="first-part" class="level3">
-<h3 class="anchored" data-anchor-id="first-part">First Part</h3>
-<p><a href="https://catmaid.readthedocs.io/en/stable/index.html"><strong>CATMAID</strong> - The Collaborative Annotation Toolkit for Massive Amounts of Image Data</a></p>
-<p>(Web-based software, no installation needed)</p>
-<p>We will use the <a href="https://catmaid.jekelylab.ex.ac.uk/">public EM resources</a> of the Jékely lab and look into the whole-body connectome of the <em>Platynereis dumerilii</em> larva.</p>
+<section id="szerda-január-29." class="level3">
+<h3 class="anchored" data-anchor-id="szerda-január-29.">Szerda, Január 29.</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Időpont</th>
+<th style="text-align: left;">Program</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">09:00-11:00</td>
+<td style="text-align: left;"><a href="./connectome.html">Délelőtti szekció I (Jékely Gáspár)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11:00-11:30</td>
+<td style="text-align: left;">Kávészünet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11:30-13:00</td>
+<td style="text-align: left;"><a href="./connectome.html">Délelőtti szekció II (Jékely Gáspár)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13:00-14:30</td>
+<td style="text-align: left;">Ebéd (büfé)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14:30-16:30</td>
+<td style="text-align: left;"><a href="./cell_tracking.html">Délutáni szekció I (Joanna Pylvänäinen)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16:30-17:00</td>
+<td style="text-align: left;">Kávészünet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17:00-18:30</td>
+<td style="text-align: left;"><a href="./cell_tracking.html">Délutáni szekció II (Joanna Pylvänäinen)</a></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="second-part" class="level3">
-<h3 class="anchored" data-anchor-id="second-part">Second part</h3>
-<p>Accessing CATMAID via the API from Rstudio.</p>
-<p>Install <a href="https://posit.co/downloads/"><strong>RStudio</strong></a>:</p>
+<section id="csütörtök-január-30." class="level3">
+<h3 class="anchored" data-anchor-id="csütörtök-január-30.">Csütörtök, Január 30.</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Időpont</th>
+<th style="text-align: left;">Program</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">09:00-11:00</td>
+<td style="text-align: left;"><a href="./calcium_imaging.html">Délelőtti szekció (Isaac Bianco)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11:00-11:30</td>
+<td style="text-align: left;">Kávészünet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11:30-13:00</td>
+<td style="text-align: left;"><a href="./calcium_imaging.html">Délelőtti szekció II (Isaac Bianco)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13:00-14:30</td>
+<td style="text-align: left;">Ebéd (büfé)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14:30-16:30</td>
+<td style="text-align: left;"><a href="./lightsheet_data.html">Délutáni szekció I (Kenzo Ivanovitch)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16:30-17:00</td>
+<td style="text-align: left;">Kávészünet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17:00-18:30</td>
+<td style="text-align: left;"><a href="./lightsheet_data.html">Délutáni szekció II (Kenzo Ivanovitch)</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="péntek-január-31." class="level3">
+<h3 class="anchored" data-anchor-id="péntek-január-31.">Péntek, Január 31.</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Időpont</th>
+<th style="text-align: left;">Program</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">09:00-11:00</td>
+<td style="text-align: left;"><del>Délelőtti szekció I (Giulia Bertolin - online)</del> (Elmarad)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">11:00-11:30</td>
+<td style="text-align: left;">Coffee Break</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11:30-13:00</td>
+<td style="text-align: left;"><a href="./bonsai.html">Délelőtti szekció II (Adriana Nagy-Dăbâcan)</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">13:00-13:30</td>
+<td style="text-align: left;">Elköszönés, zárszó. Szendvicsebéd</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Megjegyzések a tervezett programhoz
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>An integrated development environment (IDE) to work with R and Python</li>
+<li>Minden foglalkozás szüneteket is tartalmaz a kapcsolatépítési lehetőségek biztosítása érdekében.</li>
+<li>Az első este szociális programja <a href="https://maps.app.goo.gl/7v89dYzURw8ySDSm9">A Grundon</a> kerül megrendezésre</li>
+<li>Az egyik szekció online kerül megrendezésre (Giulia Bertolin, csütörtök délelőtt)</li>
 </ul>
-<p>Install <strong>necessary packages</strong> from RStudio, including Natverse/Catmaid:</p>
-<ul>
-<li>R tools for quantitative neuroanatomy, a package that provides access to the CATMAID API for R users. <a href="https://github.com/natverse/rcatmaid">https://github.com/natverse/rcatmaid</a></li>
-</ul>
-<p>Install the <a href="https://tidyverse.tidyverse.org/"><strong>Tidyverse</strong></a>:</p>
-<ul>
-<li>a set of packages that work in harmony because they share common data representations and API design</li>
-</ul>
-<p>We will use the following GitHub repo: <a href="https://github.com/JekelyLab/ELTE_Catmaid_course_25">https://github.com/JekelyLab/ELTE_Catmaid_course_25</a></p>
-<p>Here are <a href="https://github.com/JekelyLab/ELTE_Catmaid_course_25/blob/main/ELTE_CATMAID_Presentation.qmd">detailed instructions</a> about what to do.</p>
-<p>Repo of the <em>Platynereis</em> connectome paper, including the code for all analyses and figures: <a href="https://github.com/JekelyLab/Platynereis_3D_connectome_2024">https://github.com/JekelyLab/Platynereis_3D_connectome_2024</a></p>
+</div>
+</div>
 </section>
 </section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>Schneider-Mizell, C. M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M. F., Champion, A., Midgley, F. M., Fetter, R. D., Saalfeld, S., &amp; Cardona, A. (2016). <strong>Quantitative neuroanatomy for connectomics in <em>Drosophila</em>.</strong> <em>eLife</em>, 5, e12059. <a href="https://doi.org/10.7554/eLife.12059">https://doi.org/10.7554/eLife.12059</a></p>
-<p>Bates, A. S., Manton, J. D., Jagannathan, S. R., Costa, M., Schlegel, P., Rohlfing, T., &amp; Jefferis, G. S. (2020). <strong>The natverse, a versatile toolbox for combining and analysing neuroanatomical data.</strong> <em>eLife</em>, 9, e53350. <a href="https://doi.org/10.7554/eLife.53350">https://doi.org/10.7554/eLife.53350</a></p>
-<p>Verasztó, C., Ueda, N., Bezares-Calderón, L. A., Panzera, A., Williams, E. A., Shahidi, R., &amp; Jékely, G. (2017). <strong>Ciliomotor circuitry underlying whole-body coordination of ciliary activity in the <em>Platynereis</em> larva.</strong> <em>eLife</em>, 6, e26000. <a href="https://doi.org/10.7554/eLife.26000">https://doi.org/10.7554/eLife.26000</a></p>
+<section id="helyszím" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="helyszím">Helyszím</h2>
+<p>A Téli Iskola az Eötvös Loránd Tudományegyetem Természettudományi Karán (Pázmány Péter stny. 1/A, 1117 Budapest) kerül megrendezésre. Az előadások a 0.83-as (“Eötvös terem”) termben lesznek - kövessék a táblákat!</p>
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.5959249048856!2d19.059148411877455!3d47.474579896964826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddaaf46cfc7d%3A0x3621cb6fd0c8825d!2zQnVkYXBlc3QsIFDDoXptw6FueSBQw6l0ZXIgc3RueS4gMS9BLCAxMTE3!5e1!3m2!1sen!2shu!4v1737054930007!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center>
 
 
 </section>

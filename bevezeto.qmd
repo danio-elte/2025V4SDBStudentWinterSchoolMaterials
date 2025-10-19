@@ -1,0 +1,39 @@
+---
+title: ""
+---
+![](images/2025V4SDBWinterSchool_header.png)
+
+# Információ a 2025-ös V4SDB Téli Iskolához {.unnumbered}
+
+**The course will focus on the computational analysis of various large imaging datasets.** During the course we plan to have 6 practical sessions, when the participants will have the opportunity to gain hands-on experience in the *in silico* processing of large imaging datasets (e.g. volume electron microscopy, calcium imaging, lightsheet microscopy, cell tracking). 
+
+As part of the course we will also have a **public lecture about the best practices in Open Science**.
+
+Our target audience are graduate students (both at MSc and PhD level). Thanks to generous funding by the “Mecenatúra” Program of the Hungarian National Research, Development and Innovation Office ([NRDI/NKFIH - MEC_SZ-149306](https://nkfih.gov.hu/palyazoknak/nkfi-alap/tamogatott-projektek-mec24)) this event will be generously subsidised with no registration fee.
+
+**A Téli Iskola a különféle nagyméretű képalkotó eljárások által előállított adathalmazok számítógépes elemzésére fog összpontosítani.** A kurzus során 6 gyakorlati alkalmat tervezünk tartani, ahol a résztvevőknek lehetőségük lesz gyakorlati tapasztalatokat szerezni nagyméretű képalkotó adathalmazok *in silico* feldolgozásában (pl. térfogati elektronmikroszkópia, kalciumképalkotás, fénylemezes mikroszkópia, sejtkövetés).
+
+A kurzus részeként egy **nyilvános előadást is tartunk a nyílt tudomány legjobb gyakorlatairól**.
+
+Célközönségünk mesterképzéses és doktori hallgatók. A Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal „Mecenatúra” Programjának ([NRDI/NKFIH - MEC_SZ-149306](https://nkfih.gov.hu/palyazoknak/nkfi-alap/tamogatott-projektek-mec24)) nagyvonalú támogatásának köszönhetően a Téli Iskola regisztrációs díj nélküli (de regisztráció-köteles).
+
+## Visszaigazolt előadók
+
+- [Prof. Jékely Gáspár](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely) - Centre for Organismal Biology, Heidelberg, Németország
+- [Joanna Pylvänäinen](https://cellmig.org) - Åbo Akademi University, Turku, Finnország
+- [Isaac Bianco](http://zebrafishucl.org/bianco-lab#research-2) - University College London, London, Egyesült Királyság
+- [Kenzo Ivanovitch](https://www.ivanovitch-lab.com) - University College London, London, Egyesült Királyság
+- [Giulia Bertolin](https://igdr.univ-rennes.fr/en/mitochondrial-biology-and-integration-cell-cycle-team) - Insitute of Genetics and Development of Rennes, Rennes, Franciaország
+- [Adriana Nagy-Dăbâcan](https://muresanlab.tins.ro) - Transylvanian Institute of Neuroscience, Cluj-Napoca, Románia
+
+**Szervező:** 
+
+- [Varga Máté](http://danio.elte.hu/index.html) - Eötvös Loránd Tudományegyetem, Budapest
+
+## Támogatás
+
+::: {layout="[[-10,80,-10],[-25,50,-25]]"}
+![](images/NKFIA_fekvo_2019_EN.png)
+
+![](images/elte_logo.png)
+:::

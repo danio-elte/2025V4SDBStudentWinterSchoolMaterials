@@ -1,0 +1,66 @@
+---
+title: " A 2025-ös V4SDB Téli Iskola Programja"
+---
+
+## Előzetes program {.unnumbered}
+
+### Kedd, Január 28.
+
+| Időpont          | Program                                    |
+|:--------------|:--------------------------------------------|
+| 13:00-14:00   | Regisztráció                                |
+| 14:00-15:00   | **"Open Science in (In)Action: Why, What, and How"**<br> [Prof. Jékely Gáspár nyílr előadása (angolul)](open_science.qmd)     |
+| 15:00-16:00   | Kávészünet, Regisztráció                  |
+| 16:00-17:30   | Hallgatók rövid előadásai (flash talks)       |
+| 20:00-23:00   | Szociális program, ismerkedés  ( [A Grund](https://maps.app.goo.gl/FUw6Qk3jtZvpqaRZ9))                           |
+
+### Szerda, Január 29.
+
+| Időpont          | Program                                    |
+|:--------------|:--------------------------------------------|
+| 09:00-11:00   | [Délelőtti szekció I (Jékely Gáspár)](connectome.qmd)          |
+| 11:00-11:30   | Kávészünet                               |
+| 11:30-13:00   | [Délelőtti szekció II (Jékely Gáspár)](connectome.qmd)         |
+| 13:00-14:30   | Ebéd (büfé)                             |
+| 14:30-16:30   | [Délutáni szekció I (Joanna Pylvänäinen)](cell_tracking.qmd)   |
+| 16:30-17:00   | Kávészünet                              |
+| 17:00-18:30   | [Délutáni szekció II (Joanna Pylvänäinen)](cell_tracking.qmd)  |
+
+### Csütörtök, Január 30.
+
+| Időpont          | Program                                    |
+|:--------------|:--------------------------------------------|
+| 09:00-11:00   | [Délelőtti szekció (Isaac Bianco)](calcium_imaging.qmd)           |
+| 11:00-11:30   | Kávészünet                               |
+| 11:30-13:00   | [Délelőtti szekció II (Isaac Bianco)](calcium_imaging.qmd)          |
+| 13:00-14:30   | Ebéd (büfé)                             |
+| 14:30-16:30   | [Délutáni szekció I (Kenzo Ivanovitch)](lightsheet_data.qmd)     |
+| 16:30-17:00   | Kávészünet                               |
+| 17:00-18:30   | [Délutáni szekció II (Kenzo Ivanovitch)](lightsheet_data.qmd)    |
+
+### Péntek, Január 31.
+
+| Időpont          | Program                                    |
+|:--------------|:--------------------------------------------|
+| 09:00-11:00   | ~~Délelőtti szekció I (Giulia Bertolin - online)~~ (Elmarad) |
+| 11:00-11:30   | Coffee Break                               |
+| 11:30-13:00   | [Délelőtti szekció II (Adriana Nagy-Dăbâcan)](bonsai.qmd)       |
+| 13:00-13:30   | Elköszönés, zárszó. Szendvicsebéd         |
+
+::: {.callout-note}
+## Megjegyzések a tervezett programhoz
+- Minden foglalkozás szüneteket is tartalmaz a kapcsolatépítési lehetőségek biztosítása érdekében.
+- Az első este szociális programja [A Grundon](https://maps.app.goo.gl/7v89dYzURw8ySDSm9) kerül megrendezésre
+- Az egyik szekció online kerül megrendezésre (Giulia Bertolin, csütörtök délelőtt)
+:::
+
+
+## Helyszím {.unnumbered}
+
+A Téli Iskola az Eötvös Loránd Tudományegyetem Természettudományi Karán (Pázmány Péter stny. 1/A, 1117 Budapest) kerül megrendezésre. Az előadások a 0.83-as ("Eötvös terem") termben lesznek - kövessék a táblákat!
+
+```{=html}
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.5959249048856!2d19.059148411877455!3d47.474579896964826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddaaf46cfc7d%3A0x3621cb6fd0c8825d!2zQnVkYXBlc3QsIFDDoXptw6FueSBQw6l0ZXIgc3RueS4gMS9BLCAxMTE3!5e1!3m2!1sen!2shu!4v1737054930007!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center>
+```

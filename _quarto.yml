@@ -12,10 +12,14 @@ website:
     search: true
     page-footer: "Copyright 2025, Máté Varga"  
     contents:
-      - text: "Introduction"
+      - text: "Introduction (EN)"
         href: index.qmd
-      - text: "Programme"
+      - text: "Bevezető (HU)"
+        href: bevezeto.qmd  
+      - text: "Programme (EN)"
         href: programme.qmd
+      - text: "Program (HU)"
+        href: program_hu.qmd  
       - text: "OpenScience Lecture"
         href: open_science.qmd
       - section: "Tutorials"
